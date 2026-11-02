@@ -118,10 +118,21 @@ npx remotion render SermonClip $C/raw.mp4 --props=$C/props.json --public-dir=$C 
 $PY tools/loudnorm.py $C/raw.mp4 $C/clip.mp4    # two-pass; one-pass lands at -15 to -17 LUFS on sermons
 ```
 
-About 2.5 s of render time per second of clip.
+About 2.5 s of render time per second of clip. To build, render and
+normalise every clip of a sermon in one go (or the ids named), with a
+summary of any that failed:
+
+```
+$PY tools/render_clips.py $S [<id> ...]
+```
 
 Template: `src/SermonClip.tsx` (1080x1920, 30 fps). The window follows the
-preacher and alternates zoom 1.0 / 1.18 about every 9 s and at every cut.
+preacher and holds zoom 1.0, switching to 1.18 and back only once (clips
+under 60 s) or twice, never in the first 15 s: keep the eye on him, and use
+the zoom sparingly. A switch lands on a cut when one is near (it hides the
+jump), else on a pause. To pick the moments, give the clip
+`"punch": [<sermon seconds>, ...]` in `clips.json` (`[]` for none); each
+snaps to the nearest cut or pause.
 
 ## 6. QA
 

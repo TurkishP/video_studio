@@ -12,6 +12,8 @@ Optional "outro" (top level, or per clip to override) adds a 3 s ending card:
   {"style": "bar" | "card" | "blur", "logo": "../brand/logo.png",
    "logoLight": "../brand/logo-light.png", "lines": ["주일설교 · 고상섭 목사", "..."]}
 (logo paths relative to the sermon folder; logoLight has cream text for dark backgrounds).
+Optional per clip "punch": [sermon seconds, ...] picks where the zoom changes
+(default: once under 60 s, else twice; [] for never).
 
 Writes clips/<id>/: source.mp4 (the section, upscaled to 1440p), track.json (where
 the speaker is), subs.json and props.json. subs.json is drafted from the
@@ -33,9 +35,12 @@ import numpy as np
 
 PAD = 0.5  # seconds of source kept either side of the clip
 TRACK_STEP = 0.1  # track.json resolution, seconds
-PUNCH_EVERY = 9.0  # change the zoom at the first pause after this many seconds...
-PUNCH_MIN = 6.0  # ...unless less than this would be left
-ZOOMS = (1.0, 1.18)
+ZOOMS = (1.0, 1.18)  # the clip holds the first; each zoom change flips to the other
+PUNCH_AT = {False: (0.5,), True: (0.4, 0.75)}  # where the 1-2 changes aim, as fractions of a clip (False: under 60 s)
+PUNCH_FIRST = 15.0  # no zoom change in a clip's first 15 s,
+PUNCH_GAP = 15.0  # within 15 s of another change,
+PUNCH_END = 8.0  # or in the last 8 s
+PUNCH_NEAR_CUT = 8.0  # a cut this close to the aim takes the change (it hides the jump)
 SUB_LEAD = 0.15  # seconds each subtitle appears before its first word
 
 folder, clip_id = Path(sys.argv[1]), sys.argv[2]
@@ -152,19 +157,59 @@ for k, (w, s, e) in enumerate(kept_words):
         chunks.append(cur)
         cur = []
 
-# 4. Segments: each kept range, split at a phrase break about every 9 s so the
-# zoom can change (a punch-in hides jump cuts and keeps a static shot moving).
-breaks = [quietest(c[-1][2], 0.15) for c in chunks[:-1]]
-segments = []
-for a, b in keep:
-    start = a
-    for g in breaks:
-        if g - start >= PUNCH_EVERY and b - g >= PUNCH_MIN:
-            segments.append((start, g))
-            start = g
-    segments.append((start, b))
-props_segments = [{"fromMs": round((a - sec0) * 1000), "toMs": round((b - sec0) * 1000),
-                   "zoom": ZOOMS[k % 2]} for k, (a, b) in enumerate(segments)]
+# 4. Segments and zoom. The frame stays on the preacher at one zoom and changes
+# it only once (clips under 60 s) or twice, so the eye stays on him. A change
+# lands on a cut when one is near (it hides the jump), else on a pause between
+# phrases. clips.json can set the moments itself: "punch": [sermon seconds, ...]
+# ([] for none); each snaps to the nearest cut or pause.
+lengths = [b - a for a, b in keep]
+total = sum(lengths)
+cut_points = [sum(lengths[:k]) for k in range(1, len(keep))]  # output seconds where a cut joins two ranges
+pauses = [t for t in (to_out(c[-1][2]) for c in chunks[:-1])
+          if t is not None and all(abs(t - u) >= 0.5 for u in [0.0, total, *cut_points])]
+
+
+def nearest(t, options):
+    return min(options, key=lambda u: abs(u - t)) if options else None
+
+
+if "punch" in clip:
+    switches = [nearest(to_out(t, clamp=True), cut_points + pauses) for t in clip["punch"]]
+else:
+    switches = []
+    for aim in PUNCH_AT[total >= 60]:
+        def ok(t):
+            return PUNCH_FIRST <= t <= total - PUNCH_END and all(abs(t - u) >= PUNCH_GAP for u in switches)
+        near = [t for t in cut_points if ok(t) and abs(t - aim * total) <= PUNCH_NEAR_CUT]
+        switches.append(nearest(aim * total, near or [t for t in pauses if ok(t)]))
+switches = sorted({t for t in switches if t is not None})
+
+
+def to_sermon(t):
+    """Output seconds -> sermon seconds (the end of a kept range, at a cut)."""
+    done = 0.0
+    for a, b in keep:
+        if t <= done + b - a + 1e-6:
+            return a + t - done
+        done += b - a
+    return keep[-1][1]
+
+
+switch_ranges = {k for k, c in enumerate(cut_points, 1) if c in switches}  # kept ranges that open with a change
+splits = sorted(quietest(to_sermon(t), 0.15) for t in switches if t not in cut_points)
+segments = []  # (sermon start, sermon end, zoom changes here)
+for k, (a, b) in enumerate(keep):
+    start, change = a, k in switch_ranges
+    for g in splits:
+        if start < g < b:
+            segments.append((start, g, change))
+            start, change = g, True
+    segments.append((start, b, change))
+props_segments, zoom = [], 0
+for a, b, change in segments:
+    zoom += change
+    props_segments.append({"fromMs": round((a - sec0) * 1000), "toMs": round((b - sec0) * 1000),
+                           "zoom": ZOOMS[zoom % 2]})
 
 # 5. Subtitles: drafted once from the phrases, then hand-edited.
 subs_file = out / "subs.json"
@@ -233,5 +278,5 @@ props = {"video": "source.mp4", "srcW": src_w, "srcH": src_h, "segments": props_
          "title": clip["title"], "credit": config.get("credit", ""), "bar": config.get("bar", "#2b1418"),
          "subtitles": subs, "outro": outro}
 (out / "props.json").write_text(json.dumps(props, ensure_ascii=False, indent=1), encoding="utf-8")
-total = sum(b - a for a, b in keep)
-print(f"props.json: {total:.1f}s, {len(segments)} segments, {len(subs)} subtitle lines")
+stamps = ", ".join(f"{t:.0f}s" for t in switches) or "none"
+print(f"props.json: {total:.1f}s, {len(segments)} segments, zoom changes at {stamps}, {len(subs)} subtitle lines")
