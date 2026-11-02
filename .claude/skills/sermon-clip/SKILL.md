@@ -66,6 +66,18 @@ the second short and strong (it renders big and gold), 4-12 characters each.
             "cut": [[1101.0, 1104.5]], "title": ["사랑하면", "자유를 잃는다"]}]}
 ```
 
+Add the 3 s ending card with the church logo (`sermons/brand/logo.png`, and
+`logo-light.png` with cream text for dark backgrounds) at the top level of
+`clips.json`; a clip can override it with its own `"outro"`:
+
+```json
+"outro": {"style": "bar", "logo": "../brand/logo.png", "logoLight": "../brand/logo-light.png",
+          "lines": ["주일설교 · 고상섭 목사", "전체 설교는 그사랑교회 유튜브에서"]}
+```
+
+Styles: `bar` (the title bar grows to fill the screen), `card` (cream card),
+`blur` (last frame frozen, blurred and darkened, title bar kept).
+
 Show the user the list (title, time range, length, one line on why) and wait.
 
 ## 4. Build each clip → `$S/clips/<id>/`
@@ -97,7 +109,7 @@ delete `source.mp4` and `track.json` first.
 
 ```
 C=$S/clips/<id>
-npx remotion render SermonClip $C/raw.mp4 --props=$C/props.json --public-dir=$C --log=error
+npx remotion render SermonClip $C/raw.mp4 --props=$C/props.json --public-dir=$C --timeout=90000 --log=error
 $PY tools/loudnorm.py $C/raw.mp4 $C/clip.mp4    # two-pass; one-pass lands at -15 to -17 LUFS on sermons
 ```
 

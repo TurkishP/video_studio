@@ -8,6 +8,10 @@ Needs, in the sermon folder: video.mp4 (yt-dlp), audio.wav + words.json
    "clips": [{"id": "love-freedom", "start": 1063.2, "end": 1190.4,
               "cut": [[1101.0, 1104.5]], "title": ["사랑하면", "자유를 잃는다"]}]}
 start/end/cut are seconds of sermon time; cut ranges are dropped (filler, asides).
+Optional "outro" (top level, or per clip to override) adds a 3 s ending card:
+  {"style": "bar" | "card" | "blur", "logo": "../brand/logo.png",
+   "logoLight": "../brand/logo-light.png", "lines": ["주일설교 · 고상섭 목사", "..."]}
+(logo paths relative to the sermon folder; logoLight has cream text for dark backgrounds).
 
 Writes clips/<id>/: source.mp4 (the section, upscaled to 1440p), track.json (where
 the speaker is), subs.json and props.json. subs.json is drafted from the
@@ -18,6 +22,7 @@ the spoken words): fix the text, break lines with \\n, mark key words with
 clip's start, end or cuts.
 """
 import json
+import shutil
 import subprocess
 import sys
 from difflib import SequenceMatcher
@@ -216,9 +221,17 @@ if any("startMs" not in s for s in subs):
 probe = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height",
                         "-of", "csv=p=0", str(source)], capture_output=True, text=True, check=True).stdout
 src_w, src_h = map(int, probe.strip().split(",")[:2])
+# Ending card: the logo files are copied in because the clip folder is Remotion's public dir.
+outro = clip.get("outro", config.get("outro"))
+if outro:
+    for key, name in (("logo", "logo.png"), ("logoLight", "logo-light.png")):
+        shutil.copy(folder / outro[key], out / name)
+    outro = {"style": outro.get("style", "bar"), "logo": "logo.png", "logoLight": "logo-light.png",
+             "lines": outro["lines"]}
+
 props = {"video": "source.mp4", "srcW": src_w, "srcH": src_h, "segments": props_segments, "track": track,
          "title": clip["title"], "credit": config.get("credit", ""), "bar": config.get("bar", "#2b1418"),
-         "subtitles": subs}
+         "subtitles": subs, "outro": outro}
 (out / "props.json").write_text(json.dumps(props, ensure_ascii=False, indent=1), encoding="utf-8")
 total = sum(b - a for a, b in keep)
 print(f"props.json: {total:.1f}s, {len(segments)} segments, {len(subs)} subtitle lines")

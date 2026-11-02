@@ -3,6 +3,12 @@
   "url": "https://www.youtube.com/watch?v=dexpwvyJcbA",
   "credit": "고상섭 목사 · 그사랑교회",
   "bar": "#2b1418",
+  "outro": {
+    "style": "bar",
+    "logo": "../brand/logo.png",
+    "logoLight": "../brand/logo-light.png",
+    "lines": ["주일설교 · 고상섭 목사", "전체 설교는 그사랑교회 유튜브에서"]
+  },
   "clips": [
     {
       "id": "love-freedom",

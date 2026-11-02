@@ -875,5 +875,14 @@
    "startMs": 54155,
    "endMs": 58485
   }
- ]
+ ],
+ "outro": {
+  "style": "bar",
+  "logo": "logo.png",
+  "logoLight": "logo-light.png",
+  "lines": [
+   "주일설교 · 고상섭 목사",
+   "전체 설교는 그사랑교회 유튜브에서"
+  ]
+ }
 }
