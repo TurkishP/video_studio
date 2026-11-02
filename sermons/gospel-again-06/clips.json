@@ -1,0 +1,56 @@
+{
+  "sermon": "복음은 죄와 심판을 두려워하게 한다 | The Gospel Again (6) | 고상섭 목사 | 그사랑교회 주일설교",
+  "url": "https://www.youtube.com/watch?v=BStVUgpSUgs",
+  "credit": "고상섭 목사 · 그사랑교회",
+  "bar": "#2b1418",
+  "outro": {
+    "style": "bar",
+    "logo": "../brand/logo.png",
+    "logoLight": "../brand/logo-light.png",
+    "lines": ["주일설교 · 고상섭 목사", "전체 설교는 그사랑교회 유튜브에서"]
+  },
+  "clips": [
+    {
+      "id": "taking-sides",
+      "start": 708.1,
+      "end": 775.89,
+      "cut": [[740.8, 743.5]],
+      "title": ["교만은 교만을", "못 참는다"]
+    },
+    {
+      "id": "dream-school",
+      "start": 1375.25,
+      "end": 1495.6,
+      "cut": [[1428.15, 1463.8]],
+      "title": ["억지로 하는 신앙", "사랑이 먼저다"]
+    },
+    {
+      "id": "attitude",
+      "start": 1520.89,
+      "end": 1625.28,
+      "cut": [[1537.5, 1547.8]],
+      "title": ["인생은 결국", "태도가 결정한다"]
+    },
+    {
+      "id": "busy-serving",
+      "start": 2672.6,
+      "end": 2752.7,
+      "cut": [[2725.6, 2727.6], [2732.9, 2736.7]],
+      "title": ["열심히 섬기다가", "망하는 이유"]
+    },
+    {
+      "id": "holy-habits",
+      "start": 3098.32,
+      "end": 3195.48,
+      "cut": [[3129.75, 3155.25]],
+      "title": ["이사 가도 못 피하는", "나 자신"]
+    },
+    {
+      "id": "forever-love",
+      "start": 3351.44,
+      "end": 3409.55,
+      "cut": [[3388.75, 3391.15]],
+      "title": ["영원히 사랑한다는 말", "거짓말일까"]
+    }
+  ]
+}
