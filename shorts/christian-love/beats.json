@@ -1,0 +1,77 @@
+{
+  "title": "The missing word for love",
+  "theme": "museum",
+  "seed": 7,
+  "music": "music.mp3",
+  "musicVolume": 0.14,
+  "beats": [
+    {
+      "text": "The New Testament never uses *eros*, the Greek word for romantic love. Not once.",
+      "visual": { "type": "image", "src": "assets/kiss.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.52, 0.3], "zoom": 2.3 }] },
+      "headline": "The *missing* word for love"
+    },
+    {
+      "text": "Greek had other loves. *Philia*: your ride-or-die friend.",
+      "visual": { "type": "image", "src": "assets/david-jonathan.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.52, 0.4], "zoom": 2.2 }] },
+      "transition": "zoom"
+    },
+    {
+      "text": "*Storgē*: the love behind every \"did you eat?\" text from mom.",
+      "say": "Storgay: the love behind every \"did you eat?\" text from mom.",
+      "visual": { "type": "image", "src": "assets/childs-bath.jpg",
+                  "shots": [{ "focus": [0.5, 0.22], "zoom": 1.7 }, { "focus": [0.43, 0.72], "zoom": 1.9 }] },
+      "transition": "cut"
+    },
+    {
+      "text": "But for God's love, Christians picked a rarer word: *agapē*.",
+      "say": "But for God's love, Christians picked a rarer word: ahgahpay.",
+      "visual": { "type": "statement", "bg": "assets/samaritan.jpg" },
+      "headline": "*ἀγάπη*",
+      "transition": "flash"
+    },
+    {
+      "text": "Agapē isn't a *feeling* that happens to you. It's a *choice*: someone else's good, even when they can't repay you.",
+      "say": "Ahgahpay isn't a feeling that happens to you. It's a choice: someone else's good, even when they can't repay you.",
+      "visual": { "type": "image", "src": "assets/samaritan.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.4, 0.33], "zoom": 1.5 }] },
+      "cite": "Luke 10 · the Good Samaritan",
+      "transition": "zoom"
+    },
+    {
+      "text": "Paul's definition is basically a *to-do list*: love is patient and is kind.",
+      "visual": { "type": "image", "src": "assets/paul-writing.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.53, 0.3], "zoom": 1.8 }, { "focus": [0.21, 0.57], "zoom": 2.0 }] },
+      "cite": "1 Corinthians 13:4",
+      "transition": "cut"
+    },
+    {
+      "text": "Its clearest picture: while we were yet sinners, Christ *died* for us.",
+      "visual": { "type": "image", "src": "assets/cross.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.52, 0.2], "zoom": 2.4 }] },
+      "cite": "Romans 5:8",
+      "transition": "fade"
+    },
+    {
+      "text": "Or the father who *runs* to his wasteful son, and hugs him before the apology is finished.",
+      "visual": { "type": "image", "src": "assets/prodigal.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.31, 0.34], "zoom": 2.2 }, { "focus": [0.34, 0.56], "zoom": 2.2 }] },
+      "cite": "Luke 15",
+      "transition": "zoom"
+    },
+    {
+      "text": "Romance asks: what do *I* feel? Agapē asks: what do *you* need?",
+      "say": "Romance asks: what do I feel? Ahgahpay asks: what do you need?",
+      "visual": { "type": "statement", "bg": "assets/prodigal.jpg" },
+      "transition": "flash"
+    },
+    {
+      "text": "Maybe that's why the New Testament skips the word for *falling* in love.",
+      "visual": { "type": "image", "src": "assets/kiss.jpg",
+                  "shots": [{ "focus": [0.5, 0.45], "zoom": 1.0 }, { "focus": [0.52, 0.3], "zoom": 1.8 }] },
+      "transition": "fade"
+    }
+  ],
+  "sources": ["Deus Caritas Est (2005)", "BibleProject", "World English Bible"]
+}

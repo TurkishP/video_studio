@@ -1,0 +1,13 @@
+{
+  "theme": "museum",
+  "src": "assets/prodigal.jpg",
+  "w": 2299,
+  "h": 3000,
+  "focus": [
+    0.32,
+    0.4
+  ],
+  "zoom": 1.5,
+  "text": "The *missing* word for love",
+  "label": "Agape \u00b7 an essay in 3 chapters"
+}

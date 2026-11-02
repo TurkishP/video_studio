@@ -1,0 +1,85 @@
+{
+  "title": "The missing word for love",
+  "format": "long",
+  "theme": "museum",
+  "voice_clone": "narrator",
+  "music": "music.mp3",
+  "musicVolume": 0.12,
+  "captions": true,
+  "thumbnail": { "src": "assets/prodigal.jpg", "focus": [0.32, 0.4], "zoom": 1.5,
+                 "text": "The *missing* word for love", "label": "Agape · an essay in 3 chapters" },
+  "beats": [
+    {
+      "text": "The New Testament never uses *eros*, the Greek word for romantic love. Not once. For a book so full of love, that silence is strange.",
+      "visual": { "type": "image", "src": "assets/kiss.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.52, 0.3], "zoom": 2.0 }] },
+      "chapter": "The missing word",
+      "headline": "The *missing* word for love"
+    },
+    {
+      "text": "Greek had other words ready. *Philia*, the love of friends who would die for each other. *Storgē*, the quiet love of family.",
+      "say": "Greek had other words ready. Philia, the love of friends who would die for each other. Storgay, the quiet love of family.",
+      "visual": { "type": "image", "src": "assets/david-jonathan.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.5, 0.42], "zoom": 1.8 }] },
+      "transition": "zoom"
+    },
+    {
+      "text": "But when the first Christians wrote about God's love, they reached past all of these for a rare word: *agapē*.",
+      "say": "But when the first Christians wrote about God's love, they reached past all of these for a rare word: ahgahpay.",
+      "visual": { "type": "statement", "bg": "assets/samaritan.jpg" },
+      "headline": "*ἀγάπη*",
+      "transition": "flash"
+    },
+    {
+      "text": "Agapē isn't a feeling that happens to you. It's a decision about someone else's good, made even when they can't pay you back.",
+      "say": "Ahgahpay isn't a feeling that happens to you. It's a decision about someone else's good, made even when they can't pay you back.",
+      "visual": { "type": "image", "src": "assets/samaritan.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.4, 0.33], "zoom": 1.3 }] },
+      "chapter": "A love you choose",
+      "cite": "Luke 10 · the Good Samaritan",
+      "transition": "fade"
+    },
+    {
+      "text": "That's why Jesus can *command* it. Nobody can order you to feel butterflies, but you can be asked to choose someone's good.",
+      "visual": { "type": "image", "src": "assets/childs-bath.jpg",
+                  "shots": [{ "focus": [0.5, 0.3], "zoom": 1.2 }, { "focus": [0.43, 0.72], "zoom": 1.4 }] },
+      "cite": "John 13:34",
+      "transition": "cut"
+    },
+    {
+      "text": "Paul's famous definition reads like a *to-do list*: love is patient and is kind; love doesn't envy.",
+      "visual": { "type": "image", "src": "assets/paul-writing.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.53, 0.3], "zoom": 1.6 }] },
+      "cite": "1 Corinthians 13:4",
+      "transition": "zoom"
+    },
+    {
+      "text": "Its clearest picture is the cross: while we were yet sinners, Christ *died* for us.",
+      "visual": { "type": "image", "src": "assets/cross.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.52, 0.2], "zoom": 2.0 }] },
+      "chapter": "Two pictures",
+      "cite": "Romans 5:8",
+      "transition": "fade"
+    },
+    {
+      "text": "The other is a father who *runs* to the son who wasted everything, and hugs him before the apology is even finished.",
+      "visual": { "type": "image", "src": "assets/prodigal.jpg", "parallax": true,
+                  "shots": [{}, { "focus": [0.31, 0.34], "zoom": 2.0 }, { "focus": [0.34, 0.56], "zoom": 2.0 }] },
+      "cite": "Luke 15",
+      "transition": "zoom"
+    },
+    {
+      "text": "Romance asks: what do *I* feel? Agapē asks: what do *you* need?",
+      "say": "Romance asks: what do I feel? Ahgahpay asks: what do you need?",
+      "visual": { "type": "statement", "bg": "assets/prodigal.jpg" },
+      "transition": "flash"
+    },
+    {
+      "text": "Maybe that's why the New Testament skips the word for *falling* in love. It wants a love you can *stand* in.",
+      "visual": { "type": "image", "src": "assets/kiss.jpg",
+                  "shots": [{ "focus": [0.5, 0.45], "zoom": 1.0 }, { "focus": [0.52, 0.3], "zoom": 1.6 }] },
+      "transition": "fade"
+    }
+  ],
+  "sources": ["Deus Caritas Est (2005)", "BibleProject", "World English Bible"]
+}

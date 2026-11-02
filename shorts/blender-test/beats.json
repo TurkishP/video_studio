@@ -1,0 +1,10 @@
+{
+  "title": "Blender pipeline check",
+  "format": "long",
+  "theme": "museum",
+  "captions": true,
+  "beats": [
+    { "text": "A lamp still burns on the writer's desk.",
+      "visual": { "type": "blender", "scene": "scenes/desk.py" }, "kicker": "3D test" }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Why an octopus has three hearts",
+  "voice": "af_heart",
+  "speed": 1.05,
+  "beats": [
+    {
+      "text": "An octopus has three hearts. And one of them stops beating every time it swims.",
+      "visual": { "type": "image", "src": "assets/01-closeup.jpg" },
+      "kicker": "3 hearts"
+    },
+    {
+      "text": "Two of those hearts have a single job: pushing blood through the gills to pick up oxygen.",
+      "visual": { "type": "stat", "value": "2", "label": "gill hearts" }
+    },
+    {
+      "text": "The third heart sends that fresh, oxygen-rich blood out to the arms, the organs and the brain.",
+      "visual": { "type": "image", "src": "assets/02-pair.jpg" },
+      "kicker": "Heart #3"
+    },
+    {
+      "text": "And that blood is blue. Instead of iron, like ours, it carries oxygen with a copper protein called hemocyanin.",
+      "visual": { "type": "stat", "value": "Cu", "label": "copper, not iron" }
+    },
+    {
+      "text": "Hemocyanin works well in cold, low-oxygen water, exactly the kind of ocean many octopuses call home.",
+      "visual": { "type": "image", "src": "assets/03-blue.jpg" },
+      "kicker": "Blue blood"
+    },
+    {
+      "text": "Now the catch. When an octopus jets through the water, the heart that feeds its body stops.",
+      "visual": { "type": "stat", "value": "0", "label": "body-heart beats while jetting" }
+    },
+    {
+      "text": "Swimming wears it out fast, which is one reason octopuses usually crawl instead.",
+      "visual": { "type": "image", "src": "assets/05-rocks.jpg" },
+      "kicker": "Crawl > swim"
+    },
+    {
+      "text": "Three hearts, and it would still rather walk.",
+      "visual": { "type": "image", "src": "assets/01-closeup.jpg" }
+    }
+  ],
+  "sources": ["Smithsonian Magazine", "Natural History Museum", "Wells et al., J. Exp. Biol. 1987"]
+}

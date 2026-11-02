@@ -1,0 +1,1695 @@
+{
+  "format": "long",
+  "theme": "museum",
+  "captionsOn": true,
+  "durationMs": 66700,
+  "voice": "voice.wav",
+  "music": "music.mp3",
+  "musicVolume": 0.12,
+  "sfx": "sfx/whoosh.wav",
+  "scenes": [
+    {
+      "startMs": 0,
+      "endMs": 9820,
+      "visual": {
+        "type": "image",
+        "src": "assets/kiss.jpg",
+        "shots": [
+          {
+            "clip": "assets/parallax-00.mp4",
+            "startMs": 0
+          },
+          {
+            "focus": [
+              0.52,
+              0.3
+            ],
+            "zoom": 2.0,
+            "startMs": 5140
+          }
+        ],
+        "w": 2408,
+        "h": 3000
+      },
+      "kicker": null,
+      "headline": "The *missing* word for love",
+      "cite": null,
+      "transition": null,
+      "chapter": {
+        "index": 1,
+        "title": "The missing word"
+      }
+    },
+    {
+      "startMs": 9820,
+      "endMs": 17660,
+      "visual": {
+        "type": "image",
+        "src": "assets/david-jonathan.jpg",
+        "shots": [
+          {
+            "clip": "assets/parallax-01.mp4",
+            "startMs": 9820
+          },
+          {
+            "focus": [
+              0.5,
+              0.42
+            ],
+            "zoom": 1.8,
+            "startMs": 13740
+          }
+        ],
+        "w": 2508,
+        "h": 3000
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": null,
+      "transition": "zoom",
+      "chapter": null
+    },
+    {
+      "startMs": 17660,
+      "endMs": 24280,
+      "visual": {
+        "type": "statement",
+        "bg": "assets/samaritan.jpg"
+      },
+      "kicker": null,
+      "headline": "*\u1f00\u03b3\u03ac\u03c0\u03b7*",
+      "cite": null,
+      "transition": "flash",
+      "chapter": null
+    },
+    {
+      "startMs": 24280,
+      "endMs": 31440,
+      "visual": {
+        "type": "image",
+        "src": "assets/samaritan.jpg",
+        "shots": [
+          {
+            "clip": "assets/parallax-03.mp4",
+            "startMs": 24280
+          },
+          {
+            "focus": [
+              0.4,
+              0.33
+            ],
+            "zoom": 1.3,
+            "startMs": 27940
+          }
+        ],
+        "w": 1496,
+        "h": 1834
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": "Luke 10 \u00b7 the Good Samaritan",
+      "transition": "fade",
+      "chapter": {
+        "index": 2,
+        "title": "A love you choose"
+      }
+    },
+    {
+      "startMs": 31440,
+      "endMs": 38080,
+      "visual": {
+        "type": "image",
+        "src": "assets/childs-bath.jpg",
+        "shots": [
+          {
+            "focus": [
+              0.5,
+              0.3
+            ],
+            "zoom": 1.2,
+            "startMs": 31440
+          },
+          {
+            "focus": [
+              0.43,
+              0.72
+            ],
+            "zoom": 1.4,
+            "startMs": 34680
+          }
+        ],
+        "w": 1318,
+        "h": 2000
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": "John 13:34",
+      "transition": "cut",
+      "chapter": null
+    },
+    {
+      "startMs": 38080,
+      "endMs": 44520,
+      "visual": {
+        "type": "image",
+        "src": "assets/paul-writing.jpg",
+        "shots": [
+          {
+            "clip": "assets/parallax-05.mp4",
+            "startMs": 38080
+          },
+          {
+            "focus": [
+              0.53,
+              0.3
+            ],
+            "zoom": 1.6,
+            "startMs": 41360
+          }
+        ],
+        "w": 2401,
+        "h": 1766
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": "1 Corinthians 13:4",
+      "transition": "zoom",
+      "chapter": null
+    },
+    {
+      "startMs": 44520,
+      "endMs": 49480,
+      "visual": {
+        "type": "image",
+        "src": "assets/cross.jpg",
+        "shots": [
+          {
+            "clip": "assets/parallax-06.mp4",
+            "startMs": 44520
+          },
+          {
+            "focus": [
+              0.52,
+              0.2
+            ],
+            "zoom": 2.0,
+            "startMs": 46960
+          }
+        ],
+        "w": 2012,
+        "h": 3000
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": "Romans 5:8",
+      "transition": "fade",
+      "chapter": {
+        "index": 3,
+        "title": "Two pictures"
+      }
+    },
+    {
+      "startMs": 49480,
+      "endMs": 56320,
+      "visual": {
+        "type": "image",
+        "src": "assets/prodigal.jpg",
+        "shots": [
+          {
+            "clip": "assets/parallax-07.mp4",
+            "startMs": 49480
+          },
+          {
+            "focus": [
+              0.31,
+              0.34
+            ],
+            "zoom": 2.0,
+            "startMs": 51840
+          },
+          {
+            "focus": [
+              0.34,
+              0.56
+            ],
+            "zoom": 2.0,
+            "startMs": 54100
+          }
+        ],
+        "w": 2299,
+        "h": 3000
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": "Luke 15",
+      "transition": "zoom",
+      "chapter": null
+    },
+    {
+      "startMs": 56320,
+      "endMs": 60760,
+      "visual": {
+        "type": "statement",
+        "bg": "assets/prodigal.jpg"
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": null,
+      "transition": "flash",
+      "chapter": null
+    },
+    {
+      "startMs": 60760,
+      "endMs": 66700,
+      "visual": {
+        "type": "image",
+        "src": "assets/kiss.jpg",
+        "shots": [
+          {
+            "focus": [
+              0.5,
+              0.45
+            ],
+            "zoom": 1.0,
+            "startMs": 60760
+          },
+          {
+            "focus": [
+              0.52,
+              0.3
+            ],
+            "zoom": 1.6,
+            "startMs": 63760
+          }
+        ],
+        "w": 2408,
+        "h": 3000
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": null,
+      "transition": "fade",
+      "chapter": null
+    }
+  ],
+  "captions": [
+    {
+      "text": "The",
+      "startMs": 0,
+      "endMs": 160,
+      "timestampMs": 80,
+      "confidence": null
+    },
+    {
+      "text": " New",
+      "startMs": 160,
+      "endMs": 380,
+      "timestampMs": 270,
+      "confidence": null
+    },
+    {
+      "text": " Testament",
+      "startMs": 380,
+      "endMs": 820,
+      "timestampMs": 600,
+      "confidence": null
+    },
+    {
+      "text": " never",
+      "startMs": 820,
+      "endMs": 1180,
+      "timestampMs": 1000,
+      "confidence": null
+    },
+    {
+      "text": " uses",
+      "startMs": 1180,
+      "endMs": 1620,
+      "timestampMs": 1400,
+      "confidence": null
+    },
+    {
+      "text": " *eros*,",
+      "startMs": 1620,
+      "endMs": 2180,
+      "timestampMs": 1900,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 2760,
+      "endMs": 2800,
+      "timestampMs": 2780,
+      "confidence": null
+    },
+    {
+      "text": " Greek",
+      "startMs": 2800,
+      "endMs": 3080,
+      "timestampMs": 2940,
+      "confidence": null
+    },
+    {
+      "text": " word",
+      "startMs": 3080,
+      "endMs": 3400,
+      "timestampMs": 3240,
+      "confidence": null
+    },
+    {
+      "text": " for",
+      "startMs": 3400,
+      "endMs": 3620,
+      "timestampMs": 3510,
+      "confidence": null
+    },
+    {
+      "text": " romantic",
+      "startMs": 3620,
+      "endMs": 4120,
+      "timestampMs": 3870,
+      "confidence": null
+    },
+    {
+      "text": " love.",
+      "startMs": 4120,
+      "endMs": 4520,
+      "timestampMs": 4320,
+      "confidence": null
+    },
+    {
+      "text": " Not",
+      "startMs": 5140,
+      "endMs": 5160,
+      "timestampMs": 5150,
+      "confidence": null
+    },
+    {
+      "text": " once.",
+      "startMs": 5160,
+      "endMs": 5680,
+      "timestampMs": 5420,
+      "confidence": null
+    },
+    {
+      "text": " For",
+      "startMs": 6040,
+      "endMs": 6260,
+      "timestampMs": 6150,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 6260,
+      "endMs": 6360,
+      "timestampMs": 6310,
+      "confidence": null
+    },
+    {
+      "text": " book",
+      "startMs": 6360,
+      "endMs": 6500,
+      "timestampMs": 6430,
+      "confidence": null
+    },
+    {
+      "text": " so",
+      "startMs": 6500,
+      "endMs": 6820,
+      "timestampMs": 6660,
+      "confidence": null
+    },
+    {
+      "text": " full",
+      "startMs": 6820,
+      "endMs": 7080,
+      "timestampMs": 6950,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 7080,
+      "endMs": 7280,
+      "timestampMs": 7180,
+      "confidence": null
+    },
+    {
+      "text": " love,",
+      "startMs": 7280,
+      "endMs": 7500,
+      "timestampMs": 7390,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 7500,
+      "endMs": 8060,
+      "timestampMs": 7780,
+      "confidence": null
+    },
+    {
+      "text": " silence",
+      "startMs": 8060,
+      "endMs": 8380,
+      "timestampMs": 8220,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 8380,
+      "endMs": 8760,
+      "timestampMs": 8570,
+      "confidence": null
+    },
+    {
+      "text": " strange.",
+      "startMs": 8760,
+      "endMs": 9160,
+      "timestampMs": 8960,
+      "confidence": null
+    },
+    {
+      "text": " Greek",
+      "startMs": 9940,
+      "endMs": 10020,
+      "timestampMs": 9980,
+      "confidence": null
+    },
+    {
+      "text": " had",
+      "startMs": 10020,
+      "endMs": 10240,
+      "timestampMs": 10130,
+      "confidence": null
+    },
+    {
+      "text": " other",
+      "startMs": 10240,
+      "endMs": 10480,
+      "timestampMs": 10360,
+      "confidence": null
+    },
+    {
+      "text": " words",
+      "startMs": 10480,
+      "endMs": 10760,
+      "timestampMs": 10620,
+      "confidence": null
+    },
+    {
+      "text": " ready.",
+      "startMs": 10760,
+      "endMs": 11100,
+      "timestampMs": 10930,
+      "confidence": null
+    },
+    {
+      "text": " *Philia*,",
+      "startMs": 11660,
+      "endMs": 12100,
+      "timestampMs": 11880,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 12380,
+      "endMs": 12420,
+      "timestampMs": 12400,
+      "confidence": null
+    },
+    {
+      "text": " love",
+      "startMs": 12420,
+      "endMs": 12660,
+      "timestampMs": 12540,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 12660,
+      "endMs": 12840,
+      "timestampMs": 12750,
+      "confidence": null
+    },
+    {
+      "text": " friends",
+      "startMs": 12840,
+      "endMs": 13140,
+      "timestampMs": 12990,
+      "confidence": null
+    },
+    {
+      "text": " who",
+      "startMs": 13140,
+      "endMs": 13380,
+      "timestampMs": 13260,
+      "confidence": null
+    },
+    {
+      "text": " would",
+      "startMs": 13380,
+      "endMs": 13520,
+      "timestampMs": 13450,
+      "confidence": null
+    },
+    {
+      "text": " die",
+      "startMs": 13520,
+      "endMs": 13740,
+      "timestampMs": 13630,
+      "confidence": null
+    },
+    {
+      "text": " for",
+      "startMs": 13740,
+      "endMs": 13920,
+      "timestampMs": 13830,
+      "confidence": null
+    },
+    {
+      "text": " each",
+      "startMs": 13920,
+      "endMs": 14100,
+      "timestampMs": 14010,
+      "confidence": null
+    },
+    {
+      "text": " other.",
+      "startMs": 14100,
+      "endMs": 14400,
+      "timestampMs": 14250,
+      "confidence": null
+    },
+    {
+      "text": " *Storg\u0113*,",
+      "startMs": 15120,
+      "endMs": 15480,
+      "timestampMs": 15300,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 15820,
+      "endMs": 15960,
+      "timestampMs": 15890,
+      "confidence": null
+    },
+    {
+      "text": " quiet",
+      "startMs": 15960,
+      "endMs": 16300,
+      "timestampMs": 16130,
+      "confidence": null
+    },
+    {
+      "text": " love",
+      "startMs": 16300,
+      "endMs": 16560,
+      "timestampMs": 16430,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 16560,
+      "endMs": 16720,
+      "timestampMs": 16640,
+      "confidence": null
+    },
+    {
+      "text": " family.",
+      "startMs": 16720,
+      "endMs": 17160,
+      "timestampMs": 16940,
+      "confidence": null
+    },
+    {
+      "text": " But",
+      "startMs": 17780,
+      "endMs": 17860,
+      "timestampMs": 17820,
+      "confidence": null
+    },
+    {
+      "text": " when",
+      "startMs": 17860,
+      "endMs": 18000,
+      "timestampMs": 17930,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 18000,
+      "endMs": 18140,
+      "timestampMs": 18070,
+      "confidence": null
+    },
+    {
+      "text": " first",
+      "startMs": 18140,
+      "endMs": 18360,
+      "timestampMs": 18250,
+      "confidence": null
+    },
+    {
+      "text": " Christians",
+      "startMs": 18360,
+      "endMs": 18780,
+      "timestampMs": 18570,
+      "confidence": null
+    },
+    {
+      "text": " wrote",
+      "startMs": 18780,
+      "endMs": 19060,
+      "timestampMs": 18920,
+      "confidence": null
+    },
+    {
+      "text": " about",
+      "startMs": 19060,
+      "endMs": 19340,
+      "timestampMs": 19200,
+      "confidence": null
+    },
+    {
+      "text": " God's",
+      "startMs": 19340,
+      "endMs": 19760,
+      "timestampMs": 19550,
+      "confidence": null
+    },
+    {
+      "text": " love,",
+      "startMs": 19760,
+      "endMs": 19980,
+      "timestampMs": 19870,
+      "confidence": null
+    },
+    {
+      "text": " they",
+      "startMs": 20460,
+      "endMs": 20560,
+      "timestampMs": 20510,
+      "confidence": null
+    },
+    {
+      "text": " reached",
+      "startMs": 20560,
+      "endMs": 20840,
+      "timestampMs": 20700,
+      "confidence": null
+    },
+    {
+      "text": " past",
+      "startMs": 20840,
+      "endMs": 21140,
+      "timestampMs": 20990,
+      "confidence": null
+    },
+    {
+      "text": " all",
+      "startMs": 21140,
+      "endMs": 21540,
+      "timestampMs": 21340,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 21540,
+      "endMs": 21680,
+      "timestampMs": 21610,
+      "confidence": null
+    },
+    {
+      "text": " these",
+      "startMs": 21680,
+      "endMs": 21860,
+      "timestampMs": 21770,
+      "confidence": null
+    },
+    {
+      "text": " for",
+      "startMs": 21860,
+      "endMs": 22080,
+      "timestampMs": 21970,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 22080,
+      "endMs": 22200,
+      "timestampMs": 22140,
+      "confidence": null
+    },
+    {
+      "text": " rare",
+      "startMs": 22200,
+      "endMs": 22380,
+      "timestampMs": 22290,
+      "confidence": null
+    },
+    {
+      "text": " word:",
+      "startMs": 22380,
+      "endMs": 22740,
+      "timestampMs": 22560,
+      "confidence": null
+    },
+    {
+      "text": " *agap\u0113*.",
+      "startMs": 23300,
+      "endMs": 23780,
+      "timestampMs": 23540,
+      "confidence": null
+    },
+    {
+      "text": " Agap\u0113",
+      "startMs": 24400,
+      "endMs": 24960,
+      "timestampMs": 24680,
+      "confidence": null
+    },
+    {
+      "text": " isn't",
+      "startMs": 24960,
+      "endMs": 25280,
+      "timestampMs": 25120,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 25280,
+      "endMs": 25420,
+      "timestampMs": 25350,
+      "confidence": null
+    },
+    {
+      "text": " feeling",
+      "startMs": 25420,
+      "endMs": 25620,
+      "timestampMs": 25520,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 25620,
+      "endMs": 25860,
+      "timestampMs": 25740,
+      "confidence": null
+    },
+    {
+      "text": " happens",
+      "startMs": 25860,
+      "endMs": 26160,
+      "timestampMs": 26010,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 26160,
+      "endMs": 26440,
+      "timestampMs": 26300,
+      "confidence": null
+    },
+    {
+      "text": " you.",
+      "startMs": 26440,
+      "endMs": 26720,
+      "timestampMs": 26580,
+      "confidence": null
+    },
+    {
+      "text": " It's",
+      "startMs": 27060,
+      "endMs": 27260,
+      "timestampMs": 27160,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 27260,
+      "endMs": 27360,
+      "timestampMs": 27310,
+      "confidence": null
+    },
+    {
+      "text": " decision",
+      "startMs": 27360,
+      "endMs": 27660,
+      "timestampMs": 27510,
+      "confidence": null
+    },
+    {
+      "text": " about",
+      "startMs": 27660,
+      "endMs": 27940,
+      "timestampMs": 27800,
+      "confidence": null
+    },
+    {
+      "text": " someone",
+      "startMs": 27940,
+      "endMs": 28280,
+      "timestampMs": 28110,
+      "confidence": null
+    },
+    {
+      "text": " else's",
+      "startMs": 28280,
+      "endMs": 28700,
+      "timestampMs": 28490,
+      "confidence": null
+    },
+    {
+      "text": " good,",
+      "startMs": 28700,
+      "endMs": 28920,
+      "timestampMs": 28810,
+      "confidence": null
+    },
+    {
+      "text": " made",
+      "startMs": 29180,
+      "endMs": 29440,
+      "timestampMs": 29310,
+      "confidence": null
+    },
+    {
+      "text": " even",
+      "startMs": 29440,
+      "endMs": 29800,
+      "timestampMs": 29620,
+      "confidence": null
+    },
+    {
+      "text": " when",
+      "startMs": 29800,
+      "endMs": 29980,
+      "timestampMs": 29890,
+      "confidence": null
+    },
+    {
+      "text": " they",
+      "startMs": 29980,
+      "endMs": 30140,
+      "timestampMs": 30060,
+      "confidence": null
+    },
+    {
+      "text": " can't",
+      "startMs": 30140,
+      "endMs": 30400,
+      "timestampMs": 30270,
+      "confidence": null
+    },
+    {
+      "text": " pay",
+      "startMs": 30400,
+      "endMs": 30520,
+      "timestampMs": 30460,
+      "confidence": null
+    },
+    {
+      "text": " you",
+      "startMs": 30520,
+      "endMs": 30660,
+      "timestampMs": 30590,
+      "confidence": null
+    },
+    {
+      "text": " back.",
+      "startMs": 30660,
+      "endMs": 30940,
+      "timestampMs": 30800,
+      "confidence": null
+    },
+    {
+      "text": " That's",
+      "startMs": 31560,
+      "endMs": 31840,
+      "timestampMs": 31700,
+      "confidence": null
+    },
+    {
+      "text": " why",
+      "startMs": 31840,
+      "endMs": 31980,
+      "timestampMs": 31910,
+      "confidence": null
+    },
+    {
+      "text": " Jesus",
+      "startMs": 31980,
+      "endMs": 32220,
+      "timestampMs": 32100,
+      "confidence": null
+    },
+    {
+      "text": " can",
+      "startMs": 32220,
+      "endMs": 32520,
+      "timestampMs": 32370,
+      "confidence": null
+    },
+    {
+      "text": " *command*",
+      "startMs": 32520,
+      "endMs": 32820,
+      "timestampMs": 32670,
+      "confidence": null
+    },
+    {
+      "text": " it.",
+      "startMs": 32820,
+      "endMs": 33060,
+      "timestampMs": 32940,
+      "confidence": null
+    },
+    {
+      "text": " Nobody",
+      "startMs": 33560,
+      "endMs": 33700,
+      "timestampMs": 33630,
+      "confidence": null
+    },
+    {
+      "text": " can",
+      "startMs": 33700,
+      "endMs": 34000,
+      "timestampMs": 33850,
+      "confidence": null
+    },
+    {
+      "text": " order",
+      "startMs": 34000,
+      "endMs": 34260,
+      "timestampMs": 34130,
+      "confidence": null
+    },
+    {
+      "text": " you",
+      "startMs": 34260,
+      "endMs": 34400,
+      "timestampMs": 34330,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 34400,
+      "endMs": 34500,
+      "timestampMs": 34450,
+      "confidence": null
+    },
+    {
+      "text": " feel",
+      "startMs": 34500,
+      "endMs": 34680,
+      "timestampMs": 34590,
+      "confidence": null
+    },
+    {
+      "text": " butterflies,",
+      "startMs": 34680,
+      "endMs": 35140,
+      "timestampMs": 34910,
+      "confidence": null
+    },
+    {
+      "text": " but",
+      "startMs": 35520,
+      "endMs": 35720,
+      "timestampMs": 35620,
+      "confidence": null
+    },
+    {
+      "text": " you",
+      "startMs": 35720,
+      "endMs": 35820,
+      "timestampMs": 35770,
+      "confidence": null
+    },
+    {
+      "text": " can",
+      "startMs": 35820,
+      "endMs": 35940,
+      "timestampMs": 35880,
+      "confidence": null
+    },
+    {
+      "text": " be",
+      "startMs": 35940,
+      "endMs": 36080,
+      "timestampMs": 36010,
+      "confidence": null
+    },
+    {
+      "text": " asked",
+      "startMs": 36080,
+      "endMs": 36320,
+      "timestampMs": 36200,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 36320,
+      "endMs": 36500,
+      "timestampMs": 36410,
+      "confidence": null
+    },
+    {
+      "text": " choose",
+      "startMs": 36500,
+      "endMs": 36740,
+      "timestampMs": 36620,
+      "confidence": null
+    },
+    {
+      "text": " someone's",
+      "startMs": 36740,
+      "endMs": 37180,
+      "timestampMs": 36960,
+      "confidence": null
+    },
+    {
+      "text": " good.",
+      "startMs": 37180,
+      "endMs": 37400,
+      "timestampMs": 37290,
+      "confidence": null
+    },
+    {
+      "text": " Paul's",
+      "startMs": 38200,
+      "endMs": 38580,
+      "timestampMs": 38390,
+      "confidence": null
+    },
+    {
+      "text": " famous",
+      "startMs": 38580,
+      "endMs": 38780,
+      "timestampMs": 38680,
+      "confidence": null
+    },
+    {
+      "text": " definition",
+      "startMs": 38780,
+      "endMs": 39360,
+      "timestampMs": 39070,
+      "confidence": null
+    },
+    {
+      "text": " reads",
+      "startMs": 39360,
+      "endMs": 39800,
+      "timestampMs": 39580,
+      "confidence": null
+    },
+    {
+      "text": " like",
+      "startMs": 39800,
+      "endMs": 39980,
+      "timestampMs": 39890,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 39980,
+      "endMs": 40120,
+      "timestampMs": 40050,
+      "confidence": null
+    },
+    {
+      "text": " *to-do",
+      "startMs": 40120,
+      "endMs": 40420,
+      "timestampMs": 40270,
+      "confidence": null
+    },
+    {
+      "text": " list*:",
+      "startMs": 40420,
+      "endMs": 40820,
+      "timestampMs": 40620,
+      "confidence": null
+    },
+    {
+      "text": " love",
+      "startMs": 41360,
+      "endMs": 41360,
+      "timestampMs": 41360,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 41360,
+      "endMs": 41580,
+      "timestampMs": 41470,
+      "confidence": null
+    },
+    {
+      "text": " patient",
+      "startMs": 41580,
+      "endMs": 42000,
+      "timestampMs": 41790,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 42000,
+      "endMs": 42220,
+      "timestampMs": 42110,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 42220,
+      "endMs": 42360,
+      "timestampMs": 42290,
+      "confidence": null
+    },
+    {
+      "text": " kind;",
+      "startMs": 42360,
+      "endMs": 42740,
+      "timestampMs": 42550,
+      "confidence": null
+    },
+    {
+      "text": " love",
+      "startMs": 43120,
+      "endMs": 43360,
+      "timestampMs": 43240,
+      "confidence": null
+    },
+    {
+      "text": " doesn't",
+      "startMs": 43360,
+      "endMs": 43820,
+      "timestampMs": 43590,
+      "confidence": null
+    },
+    {
+      "text": " envy.",
+      "startMs": 43820,
+      "endMs": 44100,
+      "timestampMs": 43960,
+      "confidence": null
+    },
+    {
+      "text": " Its",
+      "startMs": 44640,
+      "endMs": 44760,
+      "timestampMs": 44700,
+      "confidence": null
+    },
+    {
+      "text": " clearest",
+      "startMs": 44760,
+      "endMs": 45160,
+      "timestampMs": 44960,
+      "confidence": null
+    },
+    {
+      "text": " picture",
+      "startMs": 45160,
+      "endMs": 45540,
+      "timestampMs": 45350,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 45540,
+      "endMs": 45800,
+      "timestampMs": 45670,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 45800,
+      "endMs": 45980,
+      "timestampMs": 45890,
+      "confidence": null
+    },
+    {
+      "text": " cross:",
+      "startMs": 45980,
+      "endMs": 46260,
+      "timestampMs": 46120,
+      "confidence": null
+    },
+    {
+      "text": " while",
+      "startMs": 46840,
+      "endMs": 46960,
+      "timestampMs": 46900,
+      "confidence": null
+    },
+    {
+      "text": " we",
+      "startMs": 46960,
+      "endMs": 47140,
+      "timestampMs": 47050,
+      "confidence": null
+    },
+    {
+      "text": " were",
+      "startMs": 47140,
+      "endMs": 47280,
+      "timestampMs": 47210,
+      "confidence": null
+    },
+    {
+      "text": " yet",
+      "startMs": 47280,
+      "endMs": 47500,
+      "timestampMs": 47390,
+      "confidence": null
+    },
+    {
+      "text": " sinners,",
+      "startMs": 47500,
+      "endMs": 47840,
+      "timestampMs": 47670,
+      "confidence": null
+    },
+    {
+      "text": " Christ",
+      "startMs": 48220,
+      "endMs": 48340,
+      "timestampMs": 48280,
+      "confidence": null
+    },
+    {
+      "text": " *died*",
+      "startMs": 48340,
+      "endMs": 48700,
+      "timestampMs": 48520,
+      "confidence": null
+    },
+    {
+      "text": " for",
+      "startMs": 48700,
+      "endMs": 48940,
+      "timestampMs": 48820,
+      "confidence": null
+    },
+    {
+      "text": " us.",
+      "startMs": 48940,
+      "endMs": 49160,
+      "timestampMs": 49050,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 49600,
+      "endMs": 49700,
+      "timestampMs": 49650,
+      "confidence": null
+    },
+    {
+      "text": " other",
+      "startMs": 49700,
+      "endMs": 49920,
+      "timestampMs": 49810,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 49920,
+      "endMs": 50140,
+      "timestampMs": 50030,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 50140,
+      "endMs": 50280,
+      "timestampMs": 50210,
+      "confidence": null
+    },
+    {
+      "text": " father",
+      "startMs": 50280,
+      "endMs": 50520,
+      "timestampMs": 50400,
+      "confidence": null
+    },
+    {
+      "text": " who",
+      "startMs": 50520,
+      "endMs": 50800,
+      "timestampMs": 50660,
+      "confidence": null
+    },
+    {
+      "text": " *runs*",
+      "startMs": 50800,
+      "endMs": 51000,
+      "timestampMs": 50900,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 51000,
+      "endMs": 51240,
+      "timestampMs": 51120,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 51240,
+      "endMs": 51400,
+      "timestampMs": 51320,
+      "confidence": null
+    },
+    {
+      "text": " son",
+      "startMs": 51400,
+      "endMs": 51620,
+      "timestampMs": 51510,
+      "confidence": null
+    },
+    {
+      "text": " who",
+      "startMs": 51620,
+      "endMs": 51840,
+      "timestampMs": 51730,
+      "confidence": null
+    },
+    {
+      "text": " wasted",
+      "startMs": 51840,
+      "endMs": 52140,
+      "timestampMs": 51990,
+      "confidence": null
+    },
+    {
+      "text": " everything,",
+      "startMs": 52140,
+      "endMs": 52700,
+      "timestampMs": 52420,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 53160,
+      "endMs": 53340,
+      "timestampMs": 53250,
+      "confidence": null
+    },
+    {
+      "text": " hugs",
+      "startMs": 53340,
+      "endMs": 53580,
+      "timestampMs": 53460,
+      "confidence": null
+    },
+    {
+      "text": " him",
+      "startMs": 53580,
+      "endMs": 53780,
+      "timestampMs": 53680,
+      "confidence": null
+    },
+    {
+      "text": " before",
+      "startMs": 53780,
+      "endMs": 54100,
+      "timestampMs": 53940,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 54100,
+      "endMs": 54260,
+      "timestampMs": 54180,
+      "confidence": null
+    },
+    {
+      "text": " apology",
+      "startMs": 54260,
+      "endMs": 54680,
+      "timestampMs": 54470,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 54680,
+      "endMs": 55040,
+      "timestampMs": 54860,
+      "confidence": null
+    },
+    {
+      "text": " even",
+      "startMs": 55040,
+      "endMs": 55280,
+      "timestampMs": 55160,
+      "confidence": null
+    },
+    {
+      "text": " finished.",
+      "startMs": 55280,
+      "endMs": 55720,
+      "timestampMs": 55500,
+      "confidence": null
+    },
+    {
+      "text": " Romance",
+      "startMs": 56440,
+      "endMs": 56440,
+      "timestampMs": 56440,
+      "confidence": null
+    },
+    {
+      "text": " asks:",
+      "startMs": 56440,
+      "endMs": 56860,
+      "timestampMs": 56650,
+      "confidence": null
+    },
+    {
+      "text": " what",
+      "startMs": 57400,
+      "endMs": 57460,
+      "timestampMs": 57430,
+      "confidence": null
+    },
+    {
+      "text": " do",
+      "startMs": 57460,
+      "endMs": 57620,
+      "timestampMs": 57540,
+      "confidence": null
+    },
+    {
+      "text": " *I*",
+      "startMs": 57620,
+      "endMs": 57760,
+      "timestampMs": 57690,
+      "confidence": null
+    },
+    {
+      "text": " feel?",
+      "startMs": 57760,
+      "endMs": 58120,
+      "timestampMs": 57940,
+      "confidence": null
+    },
+    {
+      "text": " Agap\u0113",
+      "startMs": 58660,
+      "endMs": 58940,
+      "timestampMs": 58800,
+      "confidence": null
+    },
+    {
+      "text": " asks:",
+      "startMs": 58940,
+      "endMs": 59300,
+      "timestampMs": 59120,
+      "confidence": null
+    },
+    {
+      "text": " what",
+      "startMs": 59620,
+      "endMs": 59860,
+      "timestampMs": 59740,
+      "confidence": null
+    },
+    {
+      "text": " do",
+      "startMs": 59860,
+      "endMs": 60040,
+      "timestampMs": 59950,
+      "confidence": null
+    },
+    {
+      "text": " *you*",
+      "startMs": 60040,
+      "endMs": 60140,
+      "timestampMs": 60090,
+      "confidence": null
+    },
+    {
+      "text": " need?",
+      "startMs": 60140,
+      "endMs": 60400,
+      "timestampMs": 60270,
+      "confidence": null
+    },
+    {
+      "text": " Maybe",
+      "startMs": 60880,
+      "endMs": 61040,
+      "timestampMs": 60960,
+      "confidence": null
+    },
+    {
+      "text": " that's",
+      "startMs": 61040,
+      "endMs": 61420,
+      "timestampMs": 61230,
+      "confidence": null
+    },
+    {
+      "text": " why",
+      "startMs": 61420,
+      "endMs": 61580,
+      "timestampMs": 61500,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 61580,
+      "endMs": 61720,
+      "timestampMs": 61650,
+      "confidence": null
+    },
+    {
+      "text": " New",
+      "startMs": 61720,
+      "endMs": 61900,
+      "timestampMs": 61810,
+      "confidence": null
+    },
+    {
+      "text": " Testament",
+      "startMs": 61900,
+      "endMs": 62260,
+      "timestampMs": 62080,
+      "confidence": null
+    },
+    {
+      "text": " skips",
+      "startMs": 62260,
+      "endMs": 62700,
+      "timestampMs": 62480,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 62700,
+      "endMs": 62860,
+      "timestampMs": 62780,
+      "confidence": null
+    },
+    {
+      "text": " word",
+      "startMs": 62860,
+      "endMs": 63040,
+      "timestampMs": 62950,
+      "confidence": null
+    },
+    {
+      "text": " for",
+      "startMs": 63040,
+      "endMs": 63260,
+      "timestampMs": 63150,
+      "confidence": null
+    },
+    {
+      "text": " *falling*",
+      "startMs": 63260,
+      "endMs": 63540,
+      "timestampMs": 63400,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 63540,
+      "endMs": 63760,
+      "timestampMs": 63650,
+      "confidence": null
+    },
+    {
+      "text": " love.",
+      "startMs": 63760,
+      "endMs": 64020,
+      "timestampMs": 63890,
+      "confidence": null
+    },
+    {
+      "text": " It",
+      "startMs": 64380,
+      "endMs": 64520,
+      "timestampMs": 64450,
+      "confidence": null
+    },
+    {
+      "text": " wants",
+      "startMs": 64520,
+      "endMs": 64720,
+      "timestampMs": 64620,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 64720,
+      "endMs": 64900,
+      "timestampMs": 64810,
+      "confidence": null
+    },
+    {
+      "text": " love",
+      "startMs": 64900,
+      "endMs": 65040,
+      "timestampMs": 64970,
+      "confidence": null
+    },
+    {
+      "text": " you",
+      "startMs": 65040,
+      "endMs": 65200,
+      "timestampMs": 65120,
+      "confidence": null
+    },
+    {
+      "text": " can",
+      "startMs": 65200,
+      "endMs": 65360,
+      "timestampMs": 65280,
+      "confidence": null
+    },
+    {
+      "text": " *stand*",
+      "startMs": 65360,
+      "endMs": 65660,
+      "timestampMs": 65510,
+      "confidence": null
+    },
+    {
+      "text": " in.",
+      "startMs": 65660,
+      "endMs": 65900,
+      "timestampMs": 65780,
+      "confidence": null
+    }
+  ],
+  "sources": [
+    "Deus Caritas Est (2005)",
+    "BibleProject",
+    "World English Bible"
+  ]
+}

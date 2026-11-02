@@ -1,0 +1,30 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Local Python env and downloaded models
+tools/.venv
+tools/models
+tools/.venv-depthflow
+tools/.venv-tts
+
+# Regenerable media: QA frames, voice tracks, 3D clips, downloaded stock video
+**/qa/
+shorts/*/voice.wav
+shorts/*/assets/*.mp4
+shorts/*/assets/parallax-*-src.jpg
+shorts/*/sfx/
+voice-samples/
+
+# Downloaded sermon recordings and the clips cut from them
+sermons/*/audio.*
+sermons/*/video.*
+sermons/*/clips/*/*.mp4
+
+# Portable Blender and the Poly Haven models it renders
+tools/blender-5.2
+tools/blender-assets

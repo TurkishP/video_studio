@@ -1,0 +1,84 @@
+{
+  "format": "long",
+  "theme": "museum",
+  "captionsOn": true,
+  "durationMs": 3800,
+  "voice": "voice.wav",
+  "music": null,
+  "musicVolume": 0.12,
+  "sfx": null,
+  "scenes": [
+    {
+      "startMs": 0,
+      "endMs": 3800,
+      "visual": {
+        "type": "video",
+        "src": "assets/blender-00.mp4"
+      },
+      "kicker": "3D test",
+      "headline": null,
+      "cite": null,
+      "transition": null,
+      "chapter": null
+    }
+  ],
+  "captions": [
+    {
+      "text": "A",
+      "startMs": 0,
+      "endMs": 330,
+      "timestampMs": 165,
+      "confidence": null
+    },
+    {
+      "text": " lamp",
+      "startMs": 350,
+      "endMs": 680,
+      "timestampMs": 515,
+      "confidence": null
+    },
+    {
+      "text": " still",
+      "startMs": 700,
+      "endMs": 1030,
+      "timestampMs": 865,
+      "confidence": null
+    },
+    {
+      "text": " burns",
+      "startMs": 1050,
+      "endMs": 1380,
+      "timestampMs": 1215,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 1400,
+      "endMs": 1730,
+      "timestampMs": 1565,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 1750,
+      "endMs": 2080,
+      "timestampMs": 1915,
+      "confidence": null
+    },
+    {
+      "text": " writer's",
+      "startMs": 2100,
+      "endMs": 2430,
+      "timestampMs": 2265,
+      "confidence": null
+    },
+    {
+      "text": " desk.",
+      "startMs": 2450,
+      "endMs": 2780,
+      "timestampMs": 2615,
+      "confidence": null
+    }
+  ],
+  "sources": []
+}

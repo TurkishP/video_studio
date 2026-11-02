@@ -1,0 +1,1005 @@
+{
+  "theme": "bold",
+  "durationMs": 42977,
+  "voice": "voice.wav",
+  "music": null,
+  "musicVolume": 0.12,
+  "sfx": null,
+  "scenes": [
+    {
+      "startMs": 0,
+      "endMs": 4901,
+      "visual": {
+        "type": "image",
+        "src": "assets/01-closeup.jpg",
+        "w": 1440,
+        "h": 2157,
+        "shots": [
+          {
+            "startMs": 0
+          }
+        ]
+      },
+      "kicker": "3 hearts",
+      "headline": null,
+      "cite": null,
+      "transition": null
+    },
+    {
+      "startMs": 4901,
+      "endMs": 9780,
+      "visual": {
+        "type": "stat",
+        "value": "2",
+        "label": "gill hearts"
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": null,
+      "transition": null
+    },
+    {
+      "startMs": 9780,
+      "endMs": 15342,
+      "visual": {
+        "type": "image",
+        "src": "assets/02-pair.jpg",
+        "w": 1440,
+        "h": 1920,
+        "shots": [
+          {
+            "startMs": 9780
+          }
+        ]
+      },
+      "kicker": "Heart #3",
+      "headline": null,
+      "cite": null,
+      "transition": null
+    },
+    {
+      "startMs": 15342,
+      "endMs": 22312,
+      "visual": {
+        "type": "stat",
+        "value": "Cu",
+        "label": "copper, not iron"
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": null,
+      "transition": null
+    },
+    {
+      "startMs": 22312,
+      "endMs": 29346,
+      "visual": {
+        "type": "image",
+        "src": "assets/03-blue.jpg",
+        "w": 1440,
+        "h": 2160,
+        "shots": [
+          {
+            "startMs": 22312
+          }
+        ]
+      },
+      "kicker": "Blue blood",
+      "headline": null,
+      "cite": null,
+      "transition": null
+    },
+    {
+      "startMs": 29346,
+      "endMs": 34737,
+      "visual": {
+        "type": "stat",
+        "value": "0",
+        "label": "body-heart beats while jetting"
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": null,
+      "transition": null
+    },
+    {
+      "startMs": 34737,
+      "endMs": 40065,
+      "visual": {
+        "type": "image",
+        "src": "assets/05-rocks.jpg",
+        "w": 1440,
+        "h": 2160,
+        "shots": [
+          {
+            "startMs": 34737
+          }
+        ]
+      },
+      "kicker": "Crawl > swim",
+      "headline": null,
+      "cite": null,
+      "transition": null
+    },
+    {
+      "startMs": 40065,
+      "endMs": 42977,
+      "visual": {
+        "type": "image",
+        "src": "assets/01-closeup.jpg",
+        "w": 1440,
+        "h": 2157,
+        "shots": [
+          {
+            "startMs": 40065
+          }
+        ]
+      },
+      "kicker": null,
+      "headline": null,
+      "cite": null,
+      "transition": null
+    }
+  ],
+  "captions": [
+    {
+      "text": "An",
+      "startMs": 0,
+      "endMs": 140,
+      "timestampMs": 70,
+      "confidence": null
+    },
+    {
+      "text": " octopus",
+      "startMs": 140,
+      "endMs": 620,
+      "timestampMs": 380,
+      "confidence": null
+    },
+    {
+      "text": " has",
+      "startMs": 620,
+      "endMs": 880,
+      "timestampMs": 750,
+      "confidence": null
+    },
+    {
+      "text": " three",
+      "startMs": 880,
+      "endMs": 1200,
+      "timestampMs": 1040,
+      "confidence": null
+    },
+    {
+      "text": " hearts.",
+      "startMs": 1200,
+      "endMs": 1560,
+      "timestampMs": 1380,
+      "confidence": null
+    },
+    {
+      "text": " And",
+      "startMs": 2100,
+      "endMs": 2180,
+      "timestampMs": 2140,
+      "confidence": null
+    },
+    {
+      "text": " one",
+      "startMs": 2180,
+      "endMs": 2340,
+      "timestampMs": 2260,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 2340,
+      "endMs": 2440,
+      "timestampMs": 2390,
+      "confidence": null
+    },
+    {
+      "text": " them",
+      "startMs": 2440,
+      "endMs": 2580,
+      "timestampMs": 2510,
+      "confidence": null
+    },
+    {
+      "text": " stops",
+      "startMs": 2580,
+      "endMs": 2900,
+      "timestampMs": 2740,
+      "confidence": null
+    },
+    {
+      "text": " beating",
+      "startMs": 2900,
+      "endMs": 3260,
+      "timestampMs": 3080,
+      "confidence": null
+    },
+    {
+      "text": " every",
+      "startMs": 3260,
+      "endMs": 3660,
+      "timestampMs": 3460,
+      "confidence": null
+    },
+    {
+      "text": " time",
+      "startMs": 3660,
+      "endMs": 3940,
+      "timestampMs": 3800,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 3940,
+      "endMs": 4100,
+      "timestampMs": 4020,
+      "confidence": null
+    },
+    {
+      "text": " swims.",
+      "startMs": 4100,
+      "endMs": 4660,
+      "timestampMs": 4380,
+      "confidence": null
+    },
+    {
+      "text": " Two",
+      "startMs": 4980,
+      "endMs": 5080,
+      "timestampMs": 5030,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 5080,
+      "endMs": 5200,
+      "timestampMs": 5140,
+      "confidence": null
+    },
+    {
+      "text": " those",
+      "startMs": 5200,
+      "endMs": 5380,
+      "timestampMs": 5290,
+      "confidence": null
+    },
+    {
+      "text": " hearts",
+      "startMs": 5380,
+      "endMs": 5640,
+      "timestampMs": 5510,
+      "confidence": null
+    },
+    {
+      "text": " have",
+      "startMs": 5640,
+      "endMs": 5900,
+      "timestampMs": 5770,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 5900,
+      "endMs": 6040,
+      "timestampMs": 5970,
+      "confidence": null
+    },
+    {
+      "text": " single",
+      "startMs": 6040,
+      "endMs": 6280,
+      "timestampMs": 6160,
+      "confidence": null
+    },
+    {
+      "text": " job:",
+      "startMs": 6280,
+      "endMs": 6660,
+      "timestampMs": 6470,
+      "confidence": null
+    },
+    {
+      "text": " pushing",
+      "startMs": 7220,
+      "endMs": 7480,
+      "timestampMs": 7350,
+      "confidence": null
+    },
+    {
+      "text": " blood",
+      "startMs": 7480,
+      "endMs": 7740,
+      "timestampMs": 7610,
+      "confidence": null
+    },
+    {
+      "text": " through",
+      "startMs": 7740,
+      "endMs": 7980,
+      "timestampMs": 7860,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 7980,
+      "endMs": 8120,
+      "timestampMs": 8050,
+      "confidence": null
+    },
+    {
+      "text": " gills",
+      "startMs": 8120,
+      "endMs": 8340,
+      "timestampMs": 8230,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 8340,
+      "endMs": 8560,
+      "timestampMs": 8450,
+      "confidence": null
+    },
+    {
+      "text": " pick",
+      "startMs": 8560,
+      "endMs": 8720,
+      "timestampMs": 8640,
+      "confidence": null
+    },
+    {
+      "text": " up",
+      "startMs": 8720,
+      "endMs": 8860,
+      "timestampMs": 8790,
+      "confidence": null
+    },
+    {
+      "text": " oxygen.",
+      "startMs": 8860,
+      "endMs": 9220,
+      "timestampMs": 9040,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 9780,
+      "endMs": 9900,
+      "timestampMs": 9840,
+      "confidence": null
+    },
+    {
+      "text": " third",
+      "startMs": 9900,
+      "endMs": 10140,
+      "timestampMs": 10020,
+      "confidence": null
+    },
+    {
+      "text": " heart",
+      "startMs": 10140,
+      "endMs": 10400,
+      "timestampMs": 10270,
+      "confidence": null
+    },
+    {
+      "text": " sends",
+      "startMs": 10400,
+      "endMs": 10660,
+      "timestampMs": 10530,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 10660,
+      "endMs": 10880,
+      "timestampMs": 10770,
+      "confidence": null
+    },
+    {
+      "text": " fresh,",
+      "startMs": 10880,
+      "endMs": 11320,
+      "timestampMs": 11100,
+      "confidence": null
+    },
+    {
+      "text": " oxygen-rich",
+      "startMs": 11700,
+      "endMs": 12240,
+      "timestampMs": 11970,
+      "confidence": null
+    },
+    {
+      "text": " blood",
+      "startMs": 12240,
+      "endMs": 12560,
+      "timestampMs": 12400,
+      "confidence": null
+    },
+    {
+      "text": " out",
+      "startMs": 12560,
+      "endMs": 12740,
+      "timestampMs": 12650,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 12740,
+      "endMs": 12900,
+      "timestampMs": 12820,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 12900,
+      "endMs": 13000,
+      "timestampMs": 12950,
+      "confidence": null
+    },
+    {
+      "text": " arms,",
+      "startMs": 13000,
+      "endMs": 13340,
+      "timestampMs": 13170,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 13780,
+      "endMs": 13860,
+      "timestampMs": 13820,
+      "confidence": null
+    },
+    {
+      "text": " organs",
+      "startMs": 13860,
+      "endMs": 14240,
+      "timestampMs": 14050,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 14240,
+      "endMs": 14480,
+      "timestampMs": 14360,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 14480,
+      "endMs": 14600,
+      "timestampMs": 14540,
+      "confidence": null
+    },
+    {
+      "text": " brain.",
+      "startMs": 14600,
+      "endMs": 14880,
+      "timestampMs": 14740,
+      "confidence": null
+    },
+    {
+      "text": " And",
+      "startMs": 15360,
+      "endMs": 15480,
+      "timestampMs": 15420,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 15480,
+      "endMs": 15660,
+      "timestampMs": 15570,
+      "confidence": null
+    },
+    {
+      "text": " blood",
+      "startMs": 15660,
+      "endMs": 15940,
+      "timestampMs": 15800,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 15940,
+      "endMs": 16160,
+      "timestampMs": 16050,
+      "confidence": null
+    },
+    {
+      "text": " blue.",
+      "startMs": 16160,
+      "endMs": 16440,
+      "timestampMs": 16300,
+      "confidence": null
+    },
+    {
+      "text": " Instead",
+      "startMs": 16980,
+      "endMs": 17260,
+      "timestampMs": 17120,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 17260,
+      "endMs": 17400,
+      "timestampMs": 17330,
+      "confidence": null
+    },
+    {
+      "text": " iron,",
+      "startMs": 17400,
+      "endMs": 17700,
+      "timestampMs": 17550,
+      "confidence": null
+    },
+    {
+      "text": " like",
+      "startMs": 17940,
+      "endMs": 18080,
+      "timestampMs": 18010,
+      "confidence": null
+    },
+    {
+      "text": " ours,",
+      "startMs": 18080,
+      "endMs": 18400,
+      "timestampMs": 18240,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 18800,
+      "endMs": 18960,
+      "timestampMs": 18880,
+      "confidence": null
+    },
+    {
+      "text": " carries",
+      "startMs": 18960,
+      "endMs": 19220,
+      "timestampMs": 19090,
+      "confidence": null
+    },
+    {
+      "text": " oxygen",
+      "startMs": 19220,
+      "endMs": 19800,
+      "timestampMs": 19510,
+      "confidence": null
+    },
+    {
+      "text": " with",
+      "startMs": 19800,
+      "endMs": 20020,
+      "timestampMs": 19910,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 20020,
+      "endMs": 20140,
+      "timestampMs": 20080,
+      "confidence": null
+    },
+    {
+      "text": " copper",
+      "startMs": 20140,
+      "endMs": 20400,
+      "timestampMs": 20270,
+      "confidence": null
+    },
+    {
+      "text": " protein",
+      "startMs": 20400,
+      "endMs": 20860,
+      "timestampMs": 20630,
+      "confidence": null
+    },
+    {
+      "text": " called",
+      "startMs": 20860,
+      "endMs": 21200,
+      "timestampMs": 21030,
+      "confidence": null
+    },
+    {
+      "text": " hemocyanin.",
+      "startMs": 21200,
+      "endMs": 21920,
+      "timestampMs": 21560,
+      "confidence": null
+    },
+    {
+      "text": " Hemocyanin",
+      "startMs": 22400,
+      "endMs": 22920,
+      "timestampMs": 22660,
+      "confidence": null
+    },
+    {
+      "text": " works",
+      "startMs": 22920,
+      "endMs": 23200,
+      "timestampMs": 23060,
+      "confidence": null
+    },
+    {
+      "text": " well",
+      "startMs": 23200,
+      "endMs": 23500,
+      "timestampMs": 23350,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 23500,
+      "endMs": 23760,
+      "timestampMs": 23630,
+      "confidence": null
+    },
+    {
+      "text": " cold,",
+      "startMs": 23760,
+      "endMs": 24280,
+      "timestampMs": 24020,
+      "confidence": null
+    },
+    {
+      "text": " low-oxygen",
+      "startMs": 24600,
+      "endMs": 25200,
+      "timestampMs": 24900,
+      "confidence": null
+    },
+    {
+      "text": " water,",
+      "startMs": 25200,
+      "endMs": 25480,
+      "timestampMs": 25340,
+      "confidence": null
+    },
+    {
+      "text": " exactly",
+      "startMs": 26020,
+      "endMs": 26380,
+      "timestampMs": 26200,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 26380,
+      "endMs": 26660,
+      "timestampMs": 26520,
+      "confidence": null
+    },
+    {
+      "text": " kind",
+      "startMs": 26660,
+      "endMs": 26800,
+      "timestampMs": 26730,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 26800,
+      "endMs": 26940,
+      "timestampMs": 26870,
+      "confidence": null
+    },
+    {
+      "text": " ocean",
+      "startMs": 26940,
+      "endMs": 27300,
+      "timestampMs": 27120,
+      "confidence": null
+    },
+    {
+      "text": " many",
+      "startMs": 27300,
+      "endMs": 27700,
+      "timestampMs": 27500,
+      "confidence": null
+    },
+    {
+      "text": " octopuses",
+      "startMs": 27700,
+      "endMs": 28300,
+      "timestampMs": 28000,
+      "confidence": null
+    },
+    {
+      "text": " call",
+      "startMs": 28300,
+      "endMs": 28620,
+      "timestampMs": 28460,
+      "confidence": null
+    },
+    {
+      "text": " home.",
+      "startMs": 28620,
+      "endMs": 28960,
+      "timestampMs": 28790,
+      "confidence": null
+    },
+    {
+      "text": " Now",
+      "startMs": 29500,
+      "endMs": 29560,
+      "timestampMs": 29530,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 29560,
+      "endMs": 29720,
+      "timestampMs": 29640,
+      "confidence": null
+    },
+    {
+      "text": " catch.",
+      "startMs": 29720,
+      "endMs": 29980,
+      "timestampMs": 29850,
+      "confidence": null
+    },
+    {
+      "text": " When",
+      "startMs": 30600,
+      "endMs": 30680,
+      "timestampMs": 30640,
+      "confidence": null
+    },
+    {
+      "text": " an",
+      "startMs": 30680,
+      "endMs": 30840,
+      "timestampMs": 30760,
+      "confidence": null
+    },
+    {
+      "text": " octopus",
+      "startMs": 30840,
+      "endMs": 31280,
+      "timestampMs": 31060,
+      "confidence": null
+    },
+    {
+      "text": " jets",
+      "startMs": 31280,
+      "endMs": 31600,
+      "timestampMs": 31440,
+      "confidence": null
+    },
+    {
+      "text": " through",
+      "startMs": 31600,
+      "endMs": 31860,
+      "timestampMs": 31730,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 31860,
+      "endMs": 31980,
+      "timestampMs": 31920,
+      "confidence": null
+    },
+    {
+      "text": " water,",
+      "startMs": 31980,
+      "endMs": 32280,
+      "timestampMs": 32130,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 32680,
+      "endMs": 32720,
+      "timestampMs": 32700,
+      "confidence": null
+    },
+    {
+      "text": " heart",
+      "startMs": 32720,
+      "endMs": 32960,
+      "timestampMs": 32840,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 32960,
+      "endMs": 33180,
+      "timestampMs": 33070,
+      "confidence": null
+    },
+    {
+      "text": " feeds",
+      "startMs": 33180,
+      "endMs": 33460,
+      "timestampMs": 33320,
+      "confidence": null
+    },
+    {
+      "text": " its",
+      "startMs": 33460,
+      "endMs": 33660,
+      "timestampMs": 33560,
+      "confidence": null
+    },
+    {
+      "text": " body",
+      "startMs": 33660,
+      "endMs": 33880,
+      "timestampMs": 33770,
+      "confidence": null
+    },
+    {
+      "text": " stops.",
+      "startMs": 33880,
+      "endMs": 34220,
+      "timestampMs": 34050,
+      "confidence": null
+    },
+    {
+      "text": " Swimming",
+      "startMs": 34960,
+      "endMs": 35140,
+      "timestampMs": 35050,
+      "confidence": null
+    },
+    {
+      "text": " wears",
+      "startMs": 35140,
+      "endMs": 35440,
+      "timestampMs": 35290,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 35440,
+      "endMs": 35620,
+      "timestampMs": 35530,
+      "confidence": null
+    },
+    {
+      "text": " out",
+      "startMs": 35620,
+      "endMs": 35800,
+      "timestampMs": 35710,
+      "confidence": null
+    },
+    {
+      "text": " fast,",
+      "startMs": 35800,
+      "endMs": 36180,
+      "timestampMs": 35990,
+      "confidence": null
+    },
+    {
+      "text": " which",
+      "startMs": 36740,
+      "endMs": 36820,
+      "timestampMs": 36780,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 36820,
+      "endMs": 36980,
+      "timestampMs": 36900,
+      "confidence": null
+    },
+    {
+      "text": " one",
+      "startMs": 36980,
+      "endMs": 37240,
+      "timestampMs": 37110,
+      "confidence": null
+    },
+    {
+      "text": " reason",
+      "startMs": 37240,
+      "endMs": 37540,
+      "timestampMs": 37390,
+      "confidence": null
+    },
+    {
+      "text": " octopuses",
+      "startMs": 37540,
+      "endMs": 38180,
+      "timestampMs": 37860,
+      "confidence": null
+    },
+    {
+      "text": " usually",
+      "startMs": 38180,
+      "endMs": 38720,
+      "timestampMs": 38450,
+      "confidence": null
+    },
+    {
+      "text": " crawl",
+      "startMs": 38720,
+      "endMs": 39120,
+      "timestampMs": 38920,
+      "confidence": null
+    },
+    {
+      "text": " instead.",
+      "startMs": 39120,
+      "endMs": 39640,
+      "timestampMs": 39380,
+      "confidence": null
+    },
+    {
+      "text": " Three",
+      "startMs": 40080,
+      "endMs": 40300,
+      "timestampMs": 40190,
+      "confidence": null
+    },
+    {
+      "text": " hearts,",
+      "startMs": 40300,
+      "endMs": 40660,
+      "timestampMs": 40480,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 40920,
+      "endMs": 41000,
+      "timestampMs": 40960,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 41000,
+      "endMs": 41080,
+      "timestampMs": 41040,
+      "confidence": null
+    },
+    {
+      "text": " would",
+      "startMs": 41080,
+      "endMs": 41160,
+      "timestampMs": 41120,
+      "confidence": null
+    },
+    {
+      "text": " still",
+      "startMs": 41160,
+      "endMs": 41420,
+      "timestampMs": 41290,
+      "confidence": null
+    },
+    {
+      "text": " rather",
+      "startMs": 41420,
+      "endMs": 41640,
+      "timestampMs": 41530,
+      "confidence": null
+    },
+    {
+      "text": " walk.",
+      "startMs": 41640,
+      "endMs": 41940,
+      "timestampMs": 41790,
+      "confidence": null
+    }
+  ],
+  "sources": [
+    "Smithsonian Magazine",
+    "Natural History Museum",
+    "Wells et al., J. Exp. Biol. 1987"
+  ]
+}

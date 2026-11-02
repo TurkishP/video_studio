@@ -1,0 +1,912 @@
+[
+  {
+    "text": "The",
+    "startMs": 0,
+    "endMs": 120,
+    "timestampMs": 60,
+    "confidence": null
+  },
+  {
+    "text": " New",
+    "startMs": 120,
+    "endMs": 260,
+    "timestampMs": 190,
+    "confidence": null
+  },
+  {
+    "text": " Testament",
+    "startMs": 260,
+    "endMs": 600,
+    "timestampMs": 430,
+    "confidence": null
+  },
+  {
+    "text": " never",
+    "startMs": 600,
+    "endMs": 960,
+    "timestampMs": 780,
+    "confidence": null
+  },
+  {
+    "text": " uses",
+    "startMs": 960,
+    "endMs": 1360,
+    "timestampMs": 1160,
+    "confidence": null
+  },
+  {
+    "text": " *eros*,",
+    "startMs": 1360,
+    "endMs": 1920,
+    "timestampMs": 1640,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 2320,
+    "endMs": 2420,
+    "timestampMs": 2370,
+    "confidence": null
+  },
+  {
+    "text": " Greek",
+    "startMs": 2420,
+    "endMs": 2640,
+    "timestampMs": 2530,
+    "confidence": null
+  },
+  {
+    "text": " word",
+    "startMs": 2640,
+    "endMs": 2980,
+    "timestampMs": 2810,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 2980,
+    "endMs": 3220,
+    "timestampMs": 3100,
+    "confidence": null
+  },
+  {
+    "text": " romantic",
+    "startMs": 3220,
+    "endMs": 3700,
+    "timestampMs": 3460,
+    "confidence": null
+  },
+  {
+    "text": " love.",
+    "startMs": 3700,
+    "endMs": 4080,
+    "timestampMs": 3890,
+    "confidence": null
+  },
+  {
+    "text": " Not",
+    "startMs": 4600,
+    "endMs": 4680,
+    "timestampMs": 4640,
+    "confidence": null
+  },
+  {
+    "text": " once.",
+    "startMs": 4680,
+    "endMs": 5120,
+    "timestampMs": 4900,
+    "confidence": null
+  },
+  {
+    "text": " Greek",
+    "startMs": 5740,
+    "endMs": 5840,
+    "timestampMs": 5790,
+    "confidence": null
+  },
+  {
+    "text": " had",
+    "startMs": 5840,
+    "endMs": 6080,
+    "timestampMs": 5960,
+    "confidence": null
+  },
+  {
+    "text": " other",
+    "startMs": 6080,
+    "endMs": 6400,
+    "timestampMs": 6240,
+    "confidence": null
+  },
+  {
+    "text": " loves.",
+    "startMs": 6400,
+    "endMs": 6800,
+    "timestampMs": 6600,
+    "confidence": null
+  },
+  {
+    "text": " *Philia*:",
+    "startMs": 7640,
+    "endMs": 7880,
+    "timestampMs": 7760,
+    "confidence": null
+  },
+  {
+    "text": " your",
+    "startMs": 8160,
+    "endMs": 8220,
+    "timestampMs": 8190,
+    "confidence": null
+  },
+  {
+    "text": " ride-or-die",
+    "startMs": 8220,
+    "endMs": 8940,
+    "timestampMs": 8580,
+    "confidence": null
+  },
+  {
+    "text": " friend.",
+    "startMs": 8940,
+    "endMs": 9360,
+    "timestampMs": 9150,
+    "confidence": null
+  },
+  {
+    "text": " *Storg\u0113*:",
+    "startMs": 10060,
+    "endMs": 10420,
+    "timestampMs": 10240,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 10740,
+    "endMs": 10940,
+    "timestampMs": 10840,
+    "confidence": null
+  },
+  {
+    "text": " love",
+    "startMs": 10940,
+    "endMs": 11180,
+    "timestampMs": 11060,
+    "confidence": null
+  },
+  {
+    "text": " behind",
+    "startMs": 11180,
+    "endMs": 11680,
+    "timestampMs": 11430,
+    "confidence": null
+  },
+  {
+    "text": " every",
+    "startMs": 11680,
+    "endMs": 12200,
+    "timestampMs": 11940,
+    "confidence": null
+  },
+  {
+    "text": " \"did",
+    "startMs": 12340,
+    "endMs": 12500,
+    "timestampMs": 12420,
+    "confidence": null
+  },
+  {
+    "text": " you",
+    "startMs": 12500,
+    "endMs": 12660,
+    "timestampMs": 12580,
+    "confidence": null
+  },
+  {
+    "text": " eat?\"",
+    "startMs": 12660,
+    "endMs": 12940,
+    "timestampMs": 12800,
+    "confidence": null
+  },
+  {
+    "text": " text",
+    "startMs": 13640,
+    "endMs": 13640,
+    "timestampMs": 13640,
+    "confidence": null
+  },
+  {
+    "text": " from",
+    "startMs": 13640,
+    "endMs": 13920,
+    "timestampMs": 13780,
+    "confidence": null
+  },
+  {
+    "text": " mom.",
+    "startMs": 13920,
+    "endMs": 14200,
+    "timestampMs": 14060,
+    "confidence": null
+  },
+  {
+    "text": " But",
+    "startMs": 14780,
+    "endMs": 14800,
+    "timestampMs": 14790,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 14800,
+    "endMs": 15000,
+    "timestampMs": 14900,
+    "confidence": null
+  },
+  {
+    "text": " God's",
+    "startMs": 15000,
+    "endMs": 15400,
+    "timestampMs": 15200,
+    "confidence": null
+  },
+  {
+    "text": " love,",
+    "startMs": 15400,
+    "endMs": 15620,
+    "timestampMs": 15510,
+    "confidence": null
+  },
+  {
+    "text": " Christians",
+    "startMs": 15860,
+    "endMs": 16100,
+    "timestampMs": 15980,
+    "confidence": null
+  },
+  {
+    "text": " picked",
+    "startMs": 16100,
+    "endMs": 16520,
+    "timestampMs": 16310,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 16520,
+    "endMs": 16700,
+    "timestampMs": 16610,
+    "confidence": null
+  },
+  {
+    "text": " rarer",
+    "startMs": 16700,
+    "endMs": 17080,
+    "timestampMs": 16890,
+    "confidence": null
+  },
+  {
+    "text": " word:",
+    "startMs": 17080,
+    "endMs": 17380,
+    "timestampMs": 17230,
+    "confidence": null
+  },
+  {
+    "text": " *agap\u0113*.",
+    "startMs": 18140,
+    "endMs": 18720,
+    "timestampMs": 18430,
+    "confidence": null
+  },
+  {
+    "text": " Agap\u0113",
+    "startMs": 19440,
+    "endMs": 20040,
+    "timestampMs": 19740,
+    "confidence": null
+  },
+  {
+    "text": " isn't",
+    "startMs": 20040,
+    "endMs": 20500,
+    "timestampMs": 20270,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 20500,
+    "endMs": 20700,
+    "timestampMs": 20600,
+    "confidence": null
+  },
+  {
+    "text": " *feeling*",
+    "startMs": 20700,
+    "endMs": 20900,
+    "timestampMs": 20800,
+    "confidence": null
+  },
+  {
+    "text": " that",
+    "startMs": 20900,
+    "endMs": 21200,
+    "timestampMs": 21050,
+    "confidence": null
+  },
+  {
+    "text": " happens",
+    "startMs": 21200,
+    "endMs": 21560,
+    "timestampMs": 21380,
+    "confidence": null
+  },
+  {
+    "text": " to",
+    "startMs": 21560,
+    "endMs": 21880,
+    "timestampMs": 21720,
+    "confidence": null
+  },
+  {
+    "text": " you.",
+    "startMs": 21880,
+    "endMs": 22180,
+    "timestampMs": 22030,
+    "confidence": null
+  },
+  {
+    "text": " It's",
+    "startMs": 22420,
+    "endMs": 22580,
+    "timestampMs": 22500,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 22580,
+    "endMs": 22700,
+    "timestampMs": 22640,
+    "confidence": null
+  },
+  {
+    "text": " *choice*:",
+    "startMs": 22700,
+    "endMs": 22960,
+    "timestampMs": 22830,
+    "confidence": null
+  },
+  {
+    "text": " someone",
+    "startMs": 23700,
+    "endMs": 23960,
+    "timestampMs": 23830,
+    "confidence": null
+  },
+  {
+    "text": " else's",
+    "startMs": 23960,
+    "endMs": 24400,
+    "timestampMs": 24180,
+    "confidence": null
+  },
+  {
+    "text": " good,",
+    "startMs": 24400,
+    "endMs": 24640,
+    "timestampMs": 24520,
+    "confidence": null
+  },
+  {
+    "text": " even",
+    "startMs": 24900,
+    "endMs": 25140,
+    "timestampMs": 25020,
+    "confidence": null
+  },
+  {
+    "text": " when",
+    "startMs": 25140,
+    "endMs": 25340,
+    "timestampMs": 25240,
+    "confidence": null
+  },
+  {
+    "text": " they",
+    "startMs": 25340,
+    "endMs": 25520,
+    "timestampMs": 25430,
+    "confidence": null
+  },
+  {
+    "text": " can't",
+    "startMs": 25520,
+    "endMs": 25820,
+    "timestampMs": 25670,
+    "confidence": null
+  },
+  {
+    "text": " repay",
+    "startMs": 25820,
+    "endMs": 26060,
+    "timestampMs": 25940,
+    "confidence": null
+  },
+  {
+    "text": " you.",
+    "startMs": 26060,
+    "endMs": 26420,
+    "timestampMs": 26240,
+    "confidence": null
+  },
+  {
+    "text": " Paul's",
+    "startMs": 26420,
+    "endMs": 27420,
+    "timestampMs": 26920,
+    "confidence": null
+  },
+  {
+    "text": " definition",
+    "startMs": 27420,
+    "endMs": 27700,
+    "timestampMs": 27560,
+    "confidence": null
+  },
+  {
+    "text": " is",
+    "startMs": 27700,
+    "endMs": 28200,
+    "timestampMs": 27950,
+    "confidence": null
+  },
+  {
+    "text": " basically",
+    "startMs": 28200,
+    "endMs": 28620,
+    "timestampMs": 28410,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 28620,
+    "endMs": 28880,
+    "timestampMs": 28750,
+    "confidence": null
+  },
+  {
+    "text": " *to-do",
+    "startMs": 28880,
+    "endMs": 29180,
+    "timestampMs": 29030,
+    "confidence": null
+  },
+  {
+    "text": " list*:",
+    "startMs": 29180,
+    "endMs": 29560,
+    "timestampMs": 29370,
+    "confidence": null
+  },
+  {
+    "text": " love",
+    "startMs": 30280,
+    "endMs": 30280,
+    "timestampMs": 30280,
+    "confidence": null
+  },
+  {
+    "text": " is",
+    "startMs": 30280,
+    "endMs": 30560,
+    "timestampMs": 30420,
+    "confidence": null
+  },
+  {
+    "text": " patient",
+    "startMs": 30560,
+    "endMs": 31000,
+    "timestampMs": 30780,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 31000,
+    "endMs": 31280,
+    "timestampMs": 31140,
+    "confidence": null
+  },
+  {
+    "text": " is",
+    "startMs": 31280,
+    "endMs": 31420,
+    "timestampMs": 31350,
+    "confidence": null
+  },
+  {
+    "text": " kind.",
+    "startMs": 31420,
+    "endMs": 31760,
+    "timestampMs": 31590,
+    "confidence": null
+  },
+  {
+    "text": " Its",
+    "startMs": 32380,
+    "endMs": 32460,
+    "timestampMs": 32420,
+    "confidence": null
+  },
+  {
+    "text": " clearest",
+    "startMs": 32460,
+    "endMs": 32860,
+    "timestampMs": 32660,
+    "confidence": null
+  },
+  {
+    "text": " picture:",
+    "startMs": 32860,
+    "endMs": 33320,
+    "timestampMs": 33090,
+    "confidence": null
+  },
+  {
+    "text": " while",
+    "startMs": 33980,
+    "endMs": 33980,
+    "timestampMs": 33980,
+    "confidence": null
+  },
+  {
+    "text": " we",
+    "startMs": 33980,
+    "endMs": 34180,
+    "timestampMs": 34080,
+    "confidence": null
+  },
+  {
+    "text": " were",
+    "startMs": 34180,
+    "endMs": 34320,
+    "timestampMs": 34250,
+    "confidence": null
+  },
+  {
+    "text": " yet",
+    "startMs": 34320,
+    "endMs": 34500,
+    "timestampMs": 34410,
+    "confidence": null
+  },
+  {
+    "text": " sinners,",
+    "startMs": 34500,
+    "endMs": 34860,
+    "timestampMs": 34680,
+    "confidence": null
+  },
+  {
+    "text": " Christ",
+    "startMs": 35360,
+    "endMs": 35500,
+    "timestampMs": 35430,
+    "confidence": null
+  },
+  {
+    "text": " *died*",
+    "startMs": 35500,
+    "endMs": 35980,
+    "timestampMs": 35740,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 35980,
+    "endMs": 36240,
+    "timestampMs": 36110,
+    "confidence": null
+  },
+  {
+    "text": " us.",
+    "startMs": 36240,
+    "endMs": 36560,
+    "timestampMs": 36400,
+    "confidence": null
+  },
+  {
+    "text": " Or",
+    "startMs": 36900,
+    "endMs": 37000,
+    "timestampMs": 36950,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 37000,
+    "endMs": 37160,
+    "timestampMs": 37080,
+    "confidence": null
+  },
+  {
+    "text": " father",
+    "startMs": 37160,
+    "endMs": 37420,
+    "timestampMs": 37290,
+    "confidence": null
+  },
+  {
+    "text": " who",
+    "startMs": 37420,
+    "endMs": 37720,
+    "timestampMs": 37570,
+    "confidence": null
+  },
+  {
+    "text": " *runs*",
+    "startMs": 37720,
+    "endMs": 37940,
+    "timestampMs": 37830,
+    "confidence": null
+  },
+  {
+    "text": " to",
+    "startMs": 37940,
+    "endMs": 38160,
+    "timestampMs": 38050,
+    "confidence": null
+  },
+  {
+    "text": " his",
+    "startMs": 38160,
+    "endMs": 38300,
+    "timestampMs": 38230,
+    "confidence": null
+  },
+  {
+    "text": " wasteful",
+    "startMs": 38300,
+    "endMs": 38680,
+    "timestampMs": 38490,
+    "confidence": null
+  },
+  {
+    "text": " son,",
+    "startMs": 38680,
+    "endMs": 39060,
+    "timestampMs": 38870,
+    "confidence": null
+  },
+  {
+    "text": " and",
+    "startMs": 39440,
+    "endMs": 39560,
+    "timestampMs": 39500,
+    "confidence": null
+  },
+  {
+    "text": " hugs",
+    "startMs": 39560,
+    "endMs": 39780,
+    "timestampMs": 39670,
+    "confidence": null
+  },
+  {
+    "text": " him",
+    "startMs": 39780,
+    "endMs": 40020,
+    "timestampMs": 39900,
+    "confidence": null
+  },
+  {
+    "text": " before",
+    "startMs": 40020,
+    "endMs": 40360,
+    "timestampMs": 40190,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 40360,
+    "endMs": 40540,
+    "timestampMs": 40450,
+    "confidence": null
+  },
+  {
+    "text": " apology",
+    "startMs": 40540,
+    "endMs": 40920,
+    "timestampMs": 40730,
+    "confidence": null
+  },
+  {
+    "text": " is",
+    "startMs": 40920,
+    "endMs": 41220,
+    "timestampMs": 41070,
+    "confidence": null
+  },
+  {
+    "text": " finished.",
+    "startMs": 41220,
+    "endMs": 41640,
+    "timestampMs": 41430,
+    "confidence": null
+  },
+  {
+    "text": " Romance",
+    "startMs": 42700,
+    "endMs": 42960,
+    "timestampMs": 42830,
+    "confidence": null
+  },
+  {
+    "text": " asks:",
+    "startMs": 42960,
+    "endMs": 43440,
+    "timestampMs": 43200,
+    "confidence": null
+  },
+  {
+    "text": " what",
+    "startMs": 44080,
+    "endMs": 44100,
+    "timestampMs": 44090,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 44100,
+    "endMs": 44340,
+    "timestampMs": 44220,
+    "confidence": null
+  },
+  {
+    "text": " *I*",
+    "startMs": 44340,
+    "endMs": 44500,
+    "timestampMs": 44420,
+    "confidence": null
+  },
+  {
+    "text": " feel?",
+    "startMs": 44500,
+    "endMs": 44820,
+    "timestampMs": 44660,
+    "confidence": null
+  },
+  {
+    "text": " Agap\u0113",
+    "startMs": 45700,
+    "endMs": 46120,
+    "timestampMs": 45910,
+    "confidence": null
+  },
+  {
+    "text": " asks:",
+    "startMs": 46120,
+    "endMs": 46660,
+    "timestampMs": 46390,
+    "confidence": null
+  },
+  {
+    "text": " what",
+    "startMs": 47420,
+    "endMs": 47640,
+    "timestampMs": 47530,
+    "confidence": null
+  },
+  {
+    "text": " do",
+    "startMs": 47640,
+    "endMs": 47880,
+    "timestampMs": 47760,
+    "confidence": null
+  },
+  {
+    "text": " *you*",
+    "startMs": 47880,
+    "endMs": 48040,
+    "timestampMs": 47960,
+    "confidence": null
+  },
+  {
+    "text": " need?",
+    "startMs": 48040,
+    "endMs": 48380,
+    "timestampMs": 48210,
+    "confidence": null
+  },
+  {
+    "text": " Maybe",
+    "startMs": 49080,
+    "endMs": 49300,
+    "timestampMs": 49190,
+    "confidence": null
+  },
+  {
+    "text": " that's",
+    "startMs": 49300,
+    "endMs": 49680,
+    "timestampMs": 49490,
+    "confidence": null
+  },
+  {
+    "text": " why",
+    "startMs": 49680,
+    "endMs": 49820,
+    "timestampMs": 49750,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 49820,
+    "endMs": 49960,
+    "timestampMs": 49890,
+    "confidence": null
+  },
+  {
+    "text": " New",
+    "startMs": 49960,
+    "endMs": 50120,
+    "timestampMs": 50040,
+    "confidence": null
+  },
+  {
+    "text": " Testament",
+    "startMs": 50120,
+    "endMs": 50500,
+    "timestampMs": 50310,
+    "confidence": null
+  },
+  {
+    "text": " skips",
+    "startMs": 50500,
+    "endMs": 50920,
+    "timestampMs": 50710,
+    "confidence": null
+  },
+  {
+    "text": " the",
+    "startMs": 50920,
+    "endMs": 51100,
+    "timestampMs": 51010,
+    "confidence": null
+  },
+  {
+    "text": " word",
+    "startMs": 51100,
+    "endMs": 51300,
+    "timestampMs": 51200,
+    "confidence": null
+  },
+  {
+    "text": " for",
+    "startMs": 51300,
+    "endMs": 51540,
+    "timestampMs": 51420,
+    "confidence": null
+  },
+  {
+    "text": " *falling*",
+    "startMs": 51540,
+    "endMs": 51820,
+    "timestampMs": 51680,
+    "confidence": null
+  },
+  {
+    "text": " in",
+    "startMs": 51820,
+    "endMs": 52020,
+    "timestampMs": 51920,
+    "confidence": null
+  },
+  {
+    "text": " love.",
+    "startMs": 52020,
+    "endMs": 52280,
+    "timestampMs": 52150,
+    "confidence": null
+  }
+]
