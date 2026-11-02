@@ -105,6 +105,11 @@ the script matches them to the spoken words for timing:
 Rerun to write `props.json`. After changing a clip's start, end or cuts,
 delete `source.mp4` and `track.json` first.
 
+Without the audio and video (e.g. in a cloud session), check the clips and
+lines against the transcript with `python tools/check_subs.py $S`: it flags
+lines that don't match what was said, clips outside 30 s - 2 min, and
+subtitles that skip too much.
+
 ## 5. Render
 
 ```
