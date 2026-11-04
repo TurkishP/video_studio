@@ -1,6 +1,6 @@
 [
- {"text": "인간의 가장 큰\n*착각*은", "en": "Our greatest illusion", "hand": true},
- {"text": "자신이 착각하고\n있지 않다고 믿는 것이다", "en": "is believing we have none.", "hand": true},
+ {"text": "인간의 가장 큰\n*착각*은", "en": "Our greatest illusion", "hand": true, "zoom": false},
+ {"text": "자신이 착각하고\n있지 않다고 믿는 것이다", "en": "is believing we have none.", "hand": true, "zoom": false},
  {"text": "이것이 인간의 *죄*,\n*교만*이죠", "en": "That is our sin: pride."},
  {"text": "그러면서 당신도 우리 모두와\n마찬가지로 착각에 빠져있다", "en": "He goes on: you're as deluded as the rest of us."},
  {"text": "하지만 괜찮다\n그런 착각이 오히려", "en": "But that's fine. Those illusions"},
@@ -12,6 +12,10 @@
  {"text": "그래서 직장에서\n*갈등*이 생기면", "en": "So when there's conflict at work,"},
  {"text": "그 사람만\n*나쁜 놈*이 되는 거예요", "en": "the other person is the only bad guy."},
  {"text": "그 사람도 자기\n*소그룹*에 가서", "en": "But they go to their small group too"},
- {"text": "나를 나쁜 놈으로\n얘기한다는 것을", "en": "and tell everyone you're the bad guy.", "hand": true},
- {"text": "이해해야 됩니다", "en": "You have to understand that."}
+ {"text": "나를 나쁜 놈으로\n얘기한다는 것을", "en": "and tell everyone you're the bad guy.", "hand": true, "zoom": false},
+ {"text": "이해해야 됩니다", "en": "You have to understand that."},
+ {"text": "그게 인간 안에 가지는\n삶의 *착각*과 같은 거죠", "en": "That's the illusion inside us."},
+ {"text": "인간의 가장 큰 *착각*은", "en": "Our greatest illusion", "hand": true},
+ {"text": "자신이 착각하고 있지 않다고\n믿는 것이다", "en": "is believing we have none.", "hand": true},
+ {"text": "이것이 *뿌리째* 뽑히지 않으면\n변화는 극히 드뭅니다", "en": "Unless that's pulled out by the root, change is rare."}
 ]

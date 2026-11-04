@@ -21,7 +21,12 @@
  {"text": "*거룩한 습관*입니다", "en": "is holy habits."},
  {"text": "인생이 무너지지 않으려면\n거룩한 습관을 잡아야 돼", "en": "If you don't want your life to fall apart, build holy habits."},
  {"text": "거룩한 습관이 없는 사람은\n삶이 힘들면 *무너집니다*", "en": "Without them, when life gets hard, you fall apart."},
- {"text": "무너져도 아침에 눈을 뜨면\n*조깅*을 하는", "en": "Even falling apart, you wake up and go jogging:", "hand": true},
+ {"text": "무너져도 아침에 눈을 뜨면\n*조깅*을 하는", "en": "Even falling apart, you wake up and go jogging:", "hand": true, "zoom": false},
  {"text": "그 *루틴*이\n필요한 거예요", "en": "that's the routine you need."},
- {"text": "그렇지 않으면 우리의\n본성을 이길 수가 없어요", "en": "Otherwise we can't beat our nature."}
+ {"text": "그렇지 않으면 우리의\n본성을 이길 수가 없어요", "en": "Otherwise we can't beat our nature."},
+ {"text": "하지만 여전히\n그 *본성*이 남아있죠", "en": "But that nature is still there."},
+ {"text": "끝없는 *은혜*를 갈구하는\n거룩한 습관을 가지고", "en": "Even with holy habits that crave endless grace,"},
+ {"text": "하나님 앞에 훈련을 해도\n본성이 다 죽지 않는데", "en": "training before God, it never fully dies."},
+ {"text": "*복음*은 죄와 심판을\n두려워하게 합니다", "en": "The gospel makes us fear sin and judgment,"},
+ {"text": "하나님이 *싫어하시는* 그 행동을\n내가 하고 싶지 않기 때문이죠", "en": "because I don't want to do what God hates.", "hand": true}
 ]

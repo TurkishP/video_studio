@@ -24,6 +24,8 @@ voice-samples/
 sermons/*/audio.*
 sermons/*/video.*
 sermons/*/clips/*/*.mp4
+sermons/*/clips/*/plate.jpg
+sermons/upload/
 
 # Portable Blender and the Poly Haven models it renders
 tools/blender-5.2

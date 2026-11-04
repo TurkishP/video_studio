@@ -15,7 +15,7 @@
  {"text": "누군가를 섬기는데\n피곤하지 않는 인생이", "en": "Can you serve someone"},
  {"text": "있을 수 있습니까?", "en": "and never get tired?"},
  {"text": "\"Don't *pray* for easy life\"", "en": null, "hand": true},
- {"text": "편안한 인생을 위해서\n기도하지 마십시오", "en": "Don't pray for an easy life."},
+ {"text": "편안한 인생을 위해서\n기도하지 마십시오", "en": "Don't pray for an easy life.", "zoom": true},
  {"text": "\"But pray for a *strong man*\"", "en": null, "hand": true},
  {"text": "그런 문구가 있죠", "en": "as the saying goes."},
  {"text": "*강한 사람*이 되기 위해서\n기도하십시오", "en": "Pray to become strong."},

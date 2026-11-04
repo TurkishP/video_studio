@@ -21,13 +21,13 @@ Description:
 #그사랑교회 #고상섭목사 #설교 #사명 #Shorts
 ```
 
-## 2. eat-pray-love (85 s, 14:18-16:02)
+## 2. eat-pray-love (114 s, 14:18-16:58)
 
-Title: 먹고 기도하고 사랑하라, 쿠션 같은 신앙 | 고상섭 목사
+Title: 먹고 기도하고 사랑하라? 쿠션 같은 신앙의 함정 | 고상섭 목사
 
 Description:
 ```
-우리가 예수님께 정말 원하는 것은 무엇일까요?
+잘 먹고 잘 살고 마음의 위안까지, 그걸로 만족하는 신앙이라면?
 
 원본 설교: 사랑은 자신을 넘어 타인에게 나아가게 한다 (로마서 1:8-17) | Gospel Again (2) | 고상섭 목사 | 그사랑교회 주일설교
 전체 설교: https://www.youtube.com/watch?v=h1g2DbMTi0s&t=857s
@@ -35,7 +35,7 @@ Description:
 #그사랑교회 #고상섭목사 #설교 #신앙 #Shorts
 ```
 
-## 3. small-vision (57 s, 16:25-17:29)
+## 3. small-vision (31 s, 16:58-17:29)
 
 Title: 기도가 매일 안 되는 이유, 비전이 작아서 | 고상섭 목사
 
@@ -44,7 +44,7 @@ Description:
 기도해도 안 해도 별 차이가 없다면, 비전이 너무 작은 건 아닐까요?
 
 원본 설교: 사랑은 자신을 넘어 타인에게 나아가게 한다 (로마서 1:8-17) | Gospel Again (2) | 고상섭 목사 | 그사랑교회 주일설교
-전체 설교: https://www.youtube.com/watch?v=h1g2DbMTi0s&t=985s
+전체 설교: https://www.youtube.com/watch?v=h1g2DbMTi0s&t=1017s
 
 #그사랑교회 #고상섭목사 #설교 #기도 #Shorts
 ```

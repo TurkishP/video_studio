@@ -35,9 +35,9 @@ Description:
 #그사랑교회 #고상섭목사 #설교 #신앙 #Shorts
 ```
 
-## 3. attitude (94 s, 25:21-27:05)
+## 3. attitude (109 s, 25:21-28:40)
 
-Title: 인생은 결국 태도가 결정한다 | 고상섭 목사
+Title: 최상의 주님께 나의 최선을 | 고상섭 목사
 
 Description:
 ```
@@ -46,7 +46,7 @@ Description:
 원본 설교: 복음은 죄와 심판을 두려워하게 한다 (로마서 2:1-16) | The Gospel Again (6) | 고상섭 목사 | 그사랑교회 주일설교
 전체 설교: https://www.youtube.com/watch?v=BStVUgpSUgs&t=1520s
 
-#그사랑교회 #고상섭목사 #설교 #태도 #Shorts
+#그사랑교회 #고상섭목사 #설교 #헌신 #Shorts
 ```
 
 ## 4. busy-serving (74 s, 44:33-45:53)
@@ -91,6 +91,34 @@ Description:
 #그사랑교회 #고상섭목사 #설교 #사랑 #Shorts
 ```
 
+## 7. senior-testimony (31 s, 21:55-22:27)
+
+Title: 사랑하려 애쓸수록 관계가 어려웠던 이유 | 고상섭 목사
+
+Description:
+```
+사랑하려고 노력할수록 관계가 더 힘들었던 한 고3 학생의 고백
+
+원본 설교: 복음은 죄와 심판을 두려워하게 한다 (로마서 2:1-16) | The Gospel Again (6) | 고상섭 목사 | 그사랑교회 주일설교
+전체 설교: https://www.youtube.com/watch?v=BStVUgpSUgs&t=1315s
+
+#그사랑교회 #고상섭목사 #설교 #간증 #Shorts
+```
+
+## 8. jonah-plant (88 s, 15:51-18:09)
+
+Title: 살기도 바빠 죽겠는데 남까지 챙겨야 하나요? | 고상섭 목사
+
+Description:
+```
+하룻밤 새 말라버린 박넝쿨은 아끼면서, 사람에게는 관심이 없는 요나. 혹시 내 모습은 아닐까요?
+
+원본 설교: 복음은 죄와 심판을 두려워하게 한다 (로마서 2:1-16) | The Gospel Again (6) | 고상섭 목사 | 그사랑교회 주일설교
+전체 설교: https://www.youtube.com/watch?v=BStVUgpSUgs&t=951s
+
+#그사랑교회 #고상섭목사 #설교 #요나 #Shorts
+```
+
 ## Notes
 
 - Transcription fixes to check against the audio: attitude "저는 삶이" →
@@ -112,3 +140,5 @@ Description:
   (~30 s); 36:12 training IVF staff: "한 시간 동안 복음을 전하라고 풀었습니다.
   아무도 못해요" (~80 s, the best spare story); 50:46 "예배 오고 싶지 않지만
   오면 좋잖아요" (~45 s); 58:13 γυμνάζω, God's gym and the stair machine (~40 s).
+- senior-testimony was added later, on the PC. The student is at 서산 꿈의학교 (named at 20:21, before the clip).
+- jonah-plant was added later, on the PC, from a passage the user picked. It opens on Jonah 4:10-11 and cuts 17:10-18:00 (Keller's Jonah reading), going from "에너지를 쓸 수 있겠습니까?" to "교만은 판단의 죄". Transcription fixes: 박농쿨 → 박넝쿨, 니누에 → 니느웨, 성업 → 성읍, 옥사님 → 목사님.

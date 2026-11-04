@@ -1,5 +1,5 @@
 [
- {"text": "교만은 *일산화탄소*와\n같은데", "en": "Pride is like carbon monoxide.", "hand": true},
+ {"text": "교만은 *일산화탄소*와\n같은데", "en": "Pride is like carbon monoxide.", "hand": true, "zoom": false},
  {"text": "왜 그러냐면 교만은", "en": "Why? Because pride"},
  {"text": "당신이 *알아차리지*\n못하는 가운데", "en": "kills you without your noticing,"},
  {"text": "조용히 그리고 서서히\n당신을 *죽인다*는 거예요", "en": "quietly and slowly.", "hand": true},
@@ -15,5 +15,10 @@
  {"text": "자기 연예인병\n걸린지도 모른다는 거예요", "en": "You don't even know you have it."},
  {"text": "깜깜한데 *선글라스* 쓰고\n나타나는데도 모르는 거야", "en": "Shades on in the dark, and still no clue"},
  {"text": "자기 연예인병 걸렸는지", "en": "you've got celebrity disease."},
- {"text": "그러다가 *추락*하는 거죠", "en": "And then you fall.", "hand": true}
+ {"text": "그러다가 *추락*하는 거죠", "en": "And then you fall.", "hand": true, "zoom": false},
+ {"text": "*겸손*을 잃어버리면서\n자기도 망하고", "en": "Losing humility, you ruin yourself"},
+ {"text": "수많은 사람들을\n망하게 하는 그 *교만*", "en": "and many others: that's pride."},
+ {"text": "그거는 나는\n*괜찮은 사람*이라는", "en": "It's all the more frightening"},
+ {"text": "생각을 하기 때문에\n더 *무서운* 거죠", "en": "because you think you're fine."},
+ {"text": "괜찮지 않은데\n*하나님* 보시기에", "en": "But in God's eyes, you're not.", "hand": true}
 ]

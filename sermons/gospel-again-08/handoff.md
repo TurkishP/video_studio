@@ -91,6 +91,20 @@ Description:
 #그사랑교회 #고상섭목사 #설교 #기도 #Shorts
 ```
 
+## 7. peace-presence (66 s, 49:04-50:37)
+
+Title: 걱정을 잊으려 할수록 더 불안해지는 이유 | 고상섭 목사
+
+Description:
+```
+불안할 때 딴생각으로 잊으려 하나요? 그리스도인의 평안은 어디서 올까요?
+
+원본 설교: 은혜는 자기합리화를 내려놓게 한다 (로마서 3:1-8) | The Gospel Again (8) | 고상섭 목사 | 그사랑교회 주일설교
+전체 설교: https://www.youtube.com/watch?v=Jzv5PNOk-gs&t=2944s
+
+#그사랑교회 #고상섭목사 #설교 #불안 #Shorts
+```
+
 ## Notes
 
 - AI disclosure: not needed. The footage and voice are the real sermon; only
@@ -114,3 +128,4 @@ Description:
   불안해집니다" (~60 s). Left out on purpose: 1:37 the pastor's story about a
   late mayor's son falsely accused over military service, which names a
   political figure.
+- peace-presence was added later, on the PC. Its cut drops 50:05-50:32 (calming yourself is a false peace; read from Keller), going from "기도하면 기도할수록 불안해집니다" to "생각을 붙들어야 됩니다".

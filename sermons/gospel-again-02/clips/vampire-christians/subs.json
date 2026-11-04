@@ -26,7 +26,7 @@
  {"text": "뱀파이어 크리스천이란", "en": "A vampire Christian"},
  {"text": "구원을 위해 필요한\n그리스도의 *피*만 빨아먹고", "en": "sucks only the blood of Christ he needs to be saved"},
  {"text": "*사명*을 잊어버리는 그런", "en": "and forgets the mission."},
- {"text": "\"아, 나 구원받았다\n아, 나 천국 받았다\"", "en": "\"Ah, I'm saved! Ah, I've got heaven!\"", "hand": true},
+ {"text": "\"아, 나 구원받았다\n아, 나 천국 받았다\"", "en": "\"Ah, I'm saved! Ah, I've got heaven!\"", "hand": true, "zoom": false},
  {"text": "그리스도 피만 빨아먹는\n그런 뱀파이어 크리스천들로", "en": "Sucking only Christ's blood, vampire Christians"},
  {"text": "지금 *소명*을\n잃어버렸다", "en": "have lost their calling.", "hand": true},
  {"text": "그렇게 얘기했습니다", "en": "That's what he said."}

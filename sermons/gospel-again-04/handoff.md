@@ -91,6 +91,20 @@ Description:
 #그사랑교회 #고상섭목사 #설교 #팀켈러 #Shorts
 ```
 
+## 7. god-was-waiting (66 s, 9:49-10:56)
+
+Title: 오래 떠나 있었어도 하나님은 기다리셨다 | 고상섭 목사
+
+Description:
+```
+오랫동안 하나님을 떠나 있었다면, 돌아가는 나를 하나님은 어떻게 맞으실까요?
+
+원본 설교: 인간관계 문제를 해결하지 못하는 이유 (로마서 1:26-32) | The Gospel Again (4) | 고상섭 목사 | 그사랑교회 주일설교
+전체 설교: https://www.youtube.com/watch?v=geLzotKI3Mg&t=589s
+
+#그사랑교회 #고상섭목사 #설교 #회개 #Shorts
+```
+
 ## Notes
 
 - AI disclosure: not needed. The footage and voice are the real sermon; only
@@ -116,3 +130,4 @@ Description:
     문장이죠" (funny, but needs the TULIP context).
   - 38:12 Political ideology as an idol. Strong, but it includes his view of
     the martial-law declaration, so I left it out.
+- god-was-waiting was added later, on the PC: repentance with joy, not fear.

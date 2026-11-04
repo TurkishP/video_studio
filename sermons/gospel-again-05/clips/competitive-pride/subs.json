@@ -1,13 +1,13 @@
 [
  {"text": "남들이 *잘 풀리는*\n모습을 보면", "en": "When others are doing well,"},
  {"text": "이렇게 따지죠", "en": "we start keeping score:"},
- {"text": "\"저 사람은 잘 되는데\n왜 나는 *이 모양*일까\"", "en": "\"Why is it going so well for them, and I'm like this?\"", "hand": true},
+ {"text": "\"저 사람은 잘 되는데\n왜 나는 *이 모양*일까\"", "en": "\"Why is it going so well for them, and I'm like this?\"", "hand": true, "zoom": false},
  {"text": "*비교*와 *시기*가 일어납니다", "en": "Comparison and envy rise up."},
  {"text": "교만은, *C. S. 루이스*가\n그렇게 얘기하죠", "en": "C. S. Lewis put it this way:"},
  {"text": "교만은 반드시 *경쟁적*이죠", "en": "Pride is essentially competitive."},
  {"text": "*경쟁*이 없으면\n교만이 없습니다", "en": "No competition, no pride."},
  {"text": "교만은 *돈*이\n많아지는 게 아니에요", "en": "Pride isn't about having more money."},
- {"text": "*남보다* 더\n많아지는 겁니다", "en": "It's about having more than the next person.", "hand": true},
+ {"text": "*남보다* 더\n많아지는 겁니다", "en": "It's about having more than the next person.", "hand": true, "zoom": false},
  {"text": "경쟁이 없는 교만이\n있을 수가 없죠", "en": "There's no pride without competition."},
  {"text": "교만은 반드시 경쟁적입니다", "en": "Pride is always competitive."},
  {"text": "그래서 반드시\n*비교*하게 돼 있어요", "en": "So it always compares,"},
@@ -17,5 +17,9 @@
  {"text": "이렇게 *열심히* 살았는데\n왜 나는 이 모양이지?", "en": "\"I worked so hard. Why am I like this?"},
  {"text": "쟤는 왜 잘되지?", "en": "Why is he doing so well?\""},
  {"text": "이런 *원망*은 사실\n당신 때문입니다", "en": "That resentment actually comes from you."},
- {"text": "환경 때문이 아니라\n*당신 탓*이에요", "en": "Not your circumstances. You.", "hand": true}
+ {"text": "환경 때문이 아니라\n*당신 탓*이에요", "en": "Not your circumstances. You.", "hand": true},
+ {"text": "그것을 깊이 알아야 되죠\n왜 *당신 탓*이죠?", "en": "You need to see that. Why is it your fault?"},
+ {"text": "그 원인은 그 사람이\n잘 살아서가 아닙니다", "en": "Not because they're doing well."},
+ {"text": "내가 나의 *행위*로 스스로\n삶을 통제하려 했기 때문에", "en": "Because I tried to control my life by my own deeds:"},
+ {"text": "내가 스스로\n*하나님*이 되는 거죠", "en": "I made myself God.", "hand": true}
 ]

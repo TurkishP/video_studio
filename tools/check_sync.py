@@ -23,20 +23,42 @@ if TORCH_LIB.exists():  # same CUDA libraries as transcribe.py
     os.add_dll_directory(str(TORCH_LIB))
 from faster_whisper import WhisperModel  # noqa: E402
 
+def onset(x, a, b):
+    """When speech starts in the word a-b (same rule as build_clip.py): whisper's word starts swallow pauses."""
+    x = x[int(a * 16000):int(b * 16000)]
+    n = len(x) // 320
+    if n < 2:
+        return a
+    db = 20 * np.log10(np.sqrt(np.mean(x[:n * 320].reshape(n, 320) ** 2, axis=1)) + 1e-9)
+    loud = db >= min(db.min() + 15, db.max() - 20)
+    runs, k = [], 0
+    while k < n:
+        if loud[k]:
+            j = k
+            while j < n and loud[j:j + 5].any():
+                j += 1
+            runs.append((j - k, k))
+            k = j
+        else:
+            k += 1
+    return a + 0.02 * max(runs)[1] if runs else a
+
+
 model = WhisperModel("large-v3-turbo", device="cuda", compute_type="float16",
                      download_root=str(TOOLS / "models" / "whisper"))
 for folder in map(Path, sys.argv[1:]):
     raw = subprocess.run(["ffmpeg", "-nostdin", "-i", str(folder / "clip.mp4"), "-f", "f32le", "-ac", "1",
                           "-ar", "16000", "-"], capture_output=True, check=True).stdout
-    segments, _ = model.transcribe(np.frombuffer(raw, np.float32), language="ko", word_timestamps=True,
-                                   condition_on_previous_text=False)
+    audio = np.frombuffer(raw, np.float32)
+    segments, _ = model.transcribe(audio, language="ko", word_timestamps=True, condition_on_previous_text=False)
     heard, when = [], []
     for s in segments:
         for w in s.words:
+            t = onset(audio, w.start, w.end)
             for ch in w.word:
                 if ch.isalnum():
                     heard.append(ch)
-                    when.append(w.start)
+                    when.append(t)
     subs = json.loads((folder / "props.json").read_text(encoding="utf-8"))["subtitles"]
     shown, line_of = [], []
     for i, s in enumerate(subs):

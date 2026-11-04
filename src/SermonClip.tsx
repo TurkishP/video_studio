@@ -35,6 +35,7 @@ const { fontFamily: latin } = loadMontserrat("normal", {
 // tools/build_clip.py.
 export type SermonClipProps = {
   video: string; // source.mp4: the sermon section, with its own audio
+  plate?: string; // the empty stage, mirrored and blurred where the window runs past the frame edge
   srcW: number;
   srcH: number;
   // Source ranges to keep, played back to back. zoom 1 shows the full height.
@@ -58,6 +59,7 @@ export type SermonClipProps = {
     logo: string;
     logoLight: string;
     lines: [string, string];
+    sermon?: [string, string]; // source sermon title and series, above lines
   } | null;
 };
 type Outro = NonNullable<SermonClipProps["outro"]>;
@@ -67,7 +69,8 @@ const H = 1920;
 const BAR_H = 400;
 const GOLD = "#f4c45a";
 const AUDIO_FADE = 2; // frames, softens the click at each cut
-const OUTRO_FRAMES = 90;
+const OUTRO_FRAMES = 105;
+const FILL_MAX = W * 0.32; // how far past the frame edge the picture may slide, over the plate
 const msToFrame = (ms: number) => Math.round((ms / 1000) * FPS);
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = { ...clamp, easing: Easing.inOut(Easing.cubic) };
@@ -119,29 +122,53 @@ const Footage: React.FC<{
   // Scale the source so its height fills the frame (times zoom), then slide it.
   const h = H * seg.zoom;
   const w = (h * props.srcW) / props.srcH;
-  const left = Math.min(0, Math.max(W - w, W / 2 - cx * w));
+  const reach = props.plate ? FILL_MAX : 0;
+  const left = Math.min(reach, Math.max(W - w - reach, W / 2 - cx * w));
   const top = Math.min(0, Math.max(H - h, H * 0.52 - 0.42 * h)); // zoomed: keep the upper body
+  // The speaker at the frame edge: the window runs past it, and the stage,
+  // mirrored at the edge and blurred as one layer so the seam stays soft, fills in.
+  const fill = props.plate && (left > 0 || left + w < W);
   return (
-    <div style={{ position: "absolute", left, top, width: w, height: h }}>
-      <Video
-        src={staticFile(props.video)}
-        trimBefore={msToFrame(seg.fromMs)}
-        trimAfter={msToFrame(seg.toMs)}
-        muted={muted}
-        volume={(f) =>
-          interpolate(
-            f,
-            [0, AUDIO_FADE, frames - AUDIO_FADE, frames],
-            [fadeIn ? 0 : 1, 1, 1, fadeOut ? 0 : 1],
-            {
-              extrapolateLeft: "clamp",
-              extrapolateRight: "clamp",
-            },
-          )
-        }
-        style={{ width: "100%", height: "100%" }}
-      />
-    </div>
+    <>
+      {fill && (
+        <AbsoluteFill style={{ filter: "blur(26px) brightness(0.72)" }}>
+          {[-1, 0, 1].map((side) => (
+            <Img
+              key={side}
+              src={staticFile(props.plate!)}
+              style={{
+                position: "absolute",
+                left: left + side * w,
+                top,
+                width: w,
+                height: h,
+                transform: side ? "scaleX(-1)" : undefined,
+              }}
+            />
+          ))}
+        </AbsoluteFill>
+      )}
+      <div style={{ position: "absolute", left, top, width: w, height: h }}>
+        <Video
+          src={staticFile(props.video)}
+          trimBefore={msToFrame(seg.fromMs)}
+          trimAfter={msToFrame(seg.toMs)}
+          muted={muted}
+          volume={(f) =>
+            interpolate(
+              f,
+              [0, AUDIO_FADE, frames - AUDIO_FADE, frames],
+              [fadeIn ? 0 : 1, 1, 1, fadeOut ? 0 : 1],
+              {
+                extrapolateLeft: "clamp",
+                extrapolateRight: "clamp",
+              },
+            )
+          }
+          style={{ width: "100%", height: "100%" }}
+        />
+      </div>
+    </>
   );
 };
 
@@ -246,8 +273,10 @@ const OutroCard: React.FC<{ outro: Outro }> = ({ outro }) => {
   const start = outro.style === "bar" ? 12 : 8;
   const rise = spring({ frame: t - start, fps, config: { damping: 200 } });
   const rule = interpolate(t, [start + 10, start + 22], [0, 160], ease);
-  const line1 = interpolate(t, [start + 14, start + 24], [0, 1], clamp);
-  const line2 = interpolate(t, [start + 20, start + 30], [0, 1], clamp);
+  const later = outro.sermon ? 10 : 0;
+  const sermon = interpolate(t, [start + 14, start + 24], [0, 1], clamp);
+  const line1 = interpolate(t, [start + 14 + later, start + 24 + later], [0, 1], clamp);
+  const line2 = interpolate(t, [start + 20 + later, start + 30 + later], [0, 1], clamp);
   return (
     <AbsoluteFill
       style={{
@@ -273,6 +302,45 @@ const OutroCard: React.FC<{ outro: Outro }> = ({ outro }) => {
           margin: "56px 0 40px",
         }}
       />
+      {outro.sermon && (
+        <div
+          style={{
+            opacity: sermon,
+            transform: `translateY(${(1 - sermon) * 16}px)`,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            marginBottom: 52,
+          }}
+        >
+          <div
+            style={{
+              maxWidth: 900,
+              textAlign: "center",
+              fontSize: 50,
+              fontWeight: 900,
+              lineHeight: 1.3,
+              letterSpacing: -1,
+              wordBreak: "keep-all",
+              color: onLight ? "#2f2b2a" : "#f6efe3",
+            }}
+          >
+            {outro.sermon[0]}
+          </div>
+          <div
+            style={{
+              fontFamily: latin,
+              fontSize: 34,
+              fontWeight: 600,
+              letterSpacing: 2,
+              marginTop: 14,
+              color: onLight ? "#c79a3a" : GOLD,
+            }}
+          >
+            {outro.sermon[1]}
+          </div>
+        </div>
+      )}
       <div
         style={{
           fontSize: 52,

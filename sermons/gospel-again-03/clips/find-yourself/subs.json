@@ -26,5 +26,8 @@
  {"text": "자기 자신에 대해서", "en": "with yourself?"},
  {"text": "시장은 우리의 이런 추구를\n기꺼이 도와주며", "en": "The market is glad to help"},
  {"text": "*고갈*과 *공허함*을 상품화하죠", "en": "and sells our exhaustion and emptiness back to us."},
- {"text": "딱 *물리기* 좋은 거죠", "en": "We're easy prey.", "hand": true}
+ {"text": "딱 *물리기* 좋은 거죠", "en": "We're easy prey.", "hand": true, "zoom": false},
+ {"text": "돈 벌기 좋은\n*대상*이 된다면", "en": "an easy target for making money."},
+ {"text": "내가 스스로\n*지혜* 있다고 생각할 때", "en": "When I think I'm wise on my own,"},
+ {"text": "결국은\n*허망*해지는 겁니다", "en": "it all comes to nothing.", "hand": true}
 ]

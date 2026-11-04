@@ -22,5 +22,7 @@
  {"text": "*사랑*입니다", "en": "That's love."},
  {"text": "돈과 통제와 안정과 당신이\n추구하는 그 어떤 것보다", "en": "More than money, control, security, or anything you chase,"},
  {"text": "그리스도가 가장 깊은\n*안정감*과 사랑으로", "en": "Christ, with the deepest security and love,"},
- {"text": "\"너의 인생을 *책임지겠다*\"\n라는 그 삶의 확신이죠", "en": "promises, \"I will take care of your life.\"", "hand": true}
+ {"text": "\"너의 인생을 *책임지겠다*\"\n라는 그 삶의 확신이죠", "en": "promises, \"I will take care of your life.\"", "hand": true, "zoom": false},
+ {"text": "그런 복음의 *은혜*가\n우리에게", "en": "May that grace of the gospel"},
+ {"text": "가득 *넘쳤으면* 좋겠습니다", "en": "overflow in us."}
 ]

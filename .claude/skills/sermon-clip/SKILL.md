@@ -76,7 +76,9 @@ Add the 3 s ending card with the church logo (`sermons/brand/logo.png`, and
 ```
 
 Styles: `bar` (the title bar grows to fill the screen), `card` (cream card),
-`blur` (last frame frozen, blurred and darkened, title bar kept).
+`blur` (last frame frozen, blurred and darkened, title bar kept). The card
+also names the source sermon from the top-level `"sermon"`
+(`"<title> | <series> | ..."`, the YouTube title), so keep that field.
 
 Show the user the list (title, time range, length, one line on why) and wait.
 
@@ -101,9 +103,12 @@ the script matches them to the spoken words for timing:
   spoken words: lines that don't match the audio get no timing;
 - one phrase per entry, `\n` between its two lines, at most ~12 syllables a line;
 - mark 1-2 key words with `*stars*` (gold); `"hand": true` for quoted
-  sayings and punchlines (handwritten font); `"en"` is optional.
+  sayings and punchlines (handwritten font); `"en"` is optional;
+- the picture punches in (zoom 1.18) only while `hand` lines are spoken. Keep
+  it to the clip's one or two main points: `"zoom": false` on a hand line
+  that isn't one, `"zoom": true` on a plain line that is.
 Rerun to write `props.json`. After changing a clip's start, end or cuts,
-delete `source.mp4` and `track.json` first.
+delete `source.mp4`, `track.json` and `plate.jpg` first.
 
 Without the audio and video (e.g. in a cloud session), check the clips and
 lines against the transcript with `python tools/check_subs.py $S`: it flags
@@ -118,10 +123,19 @@ npx remotion render SermonClip $C/raw.mp4 --props=$C/props.json --public-dir=$C 
 $PY tools/loudnorm.py $C/raw.mp4 $C/clip.mp4    # two-pass; one-pass lands at -15 to -17 LUFS on sermons
 ```
 
-About 2.5 s of render time per second of clip.
+About 2.5 s of render time per second of clip. For many clips, `bash
+tools/render_clips.sh $S [...]` builds, renders, normalises and sync-checks
+every clip without a `clip.mp4` (start it with PowerShell `Start-Process` so it
+outlives the session; progress in `sermons/render-log.txt`). After any render,
+the finished `clip.mp4` goes to `sermons/upload/ga-<sermon no.>_<id>.mp4` (the
+script does this; do it by hand for clips rendered another way): the user
+uploads from that folder.
 
 Template: `src/SermonClip.tsx` (1080x1920, 30 fps). The window follows the
-preacher and alternates zoom 1.0 / 1.18 about every 9 s and at every cut.
+preacher's face (or body); when he stands at the edge of the church camera's
+shot it runs past the edge, and `plate.jpg` (the empty stage, mirrored and
+blurred) fills the gap. Subtitles start at the first audible sound of their
+words, not at whisper's word start, which swallows the pause before it.
 
 ## 6. QA
 
